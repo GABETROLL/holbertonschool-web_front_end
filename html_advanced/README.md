@@ -12,3 +12,4 @@ These exercises are meant to be enjoyed in the order lised here.
 3. Copy ```2-index.html``` into ```3-index.html```. Inside ```3-index.html```: add ```header```, ```main``` and ```footer``` tags inside the ```body``` tag with the tag's names as their content.
 4. Copy ```3-index.html``` into ```article.html```. Inside ```article.html```: change its title from "Homepage - Techium" to "Article - Techium". Add an ```aside``` tage with "Aside" as its content.
 5. Copy ```3-index.html``` into ```5-index.html```. Inside ```5-index.html```, add some sections.
+6. Copy ```5-index.html``` into ```6-index.html```. Inside ```6-index.html```: add 3 ```article`` tags inside the "Works", "Latest news" and "Testimonials" sections.
