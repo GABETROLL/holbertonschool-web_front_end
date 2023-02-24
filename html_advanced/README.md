@@ -5,9 +5,8 @@ Each exercise (in ascending order by the number in the start of the file's name)
 0. its ```doctype``` tag and the English language metadata
 1. empty ```head``` and ```body``` tags inside the ```html``` tag
 2. Inside the ```head``` tag:
-- a meta tag with the character set ```UTF-8```
-- a meta tag with ```viewport``` as its name, and ```width```, ```initial-scale``` and ```viewport-fit``` keys
-- a ```title``` tag with the wesite's title ("Homepage - Techium")
-- a meta tag with ```description``` as its name and its ```content``` attribute containing the website's description
-- and a favicon
+- setting the character set to ```UTF-8```
+- website fit and scale information
+- the website's tittle
+- the website's description
 3. ```header```, ```main``` and ```footer``` tags to the website with the tag's names as their content
