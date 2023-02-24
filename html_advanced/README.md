@@ -25,3 +25,8 @@ These exercises are meant to be enjoyed in the order lised here.
 - Add a ```h1``` tag inside the ```main``` (before anything else inside the ```main```) with "Header" inside of it.
 9. Copy ```8-index.html``` into ```9-index.html```. Inside ```9-index.html```:
 - Change all the section texts into ```h2```'s
+10. Copy ```9-index.html``` into ```10-index.html```. Inside ```10-index.html```:
+- Inside of the section with the "Services" ```h2```, add ```h3```'s with different services.
+- Replace the text in the 3 articles in the section with the "Works" ```h2```, replace the ```article```s' contents with these ```h3```'s: "Interior Design", "Web Development" and "Personal Brand"
+- Inside of the section with the "About Us" ```h2```, add 3 ```h3```'s that contain: "Who we are", "Our culture" and "How we work".
+- In the section with the "Lates news" ```h2```, replace the ```article```s' contents with ```h3```s containing Latin text.
