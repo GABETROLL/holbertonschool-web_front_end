@@ -23,3 +23,5 @@ These exercises are meant to be enjoyed in the order lised here.
 - Remove the "Header" text from inside the ```header``` tag, and put in an empty ```nav``` instead.
 8. Copy ```7-index.html``` into ```8-index.html```. Inside ```8-index.html```:
 - Add a ```h1``` tag inside the ```main``` (before anything else inside the ```main```) with "Header" inside of it.
+9. Copy ```8-index.html``` into ```9-index.html```. Inside ```9-index.html```:
+- Change all the section texts into ```h2```'s
