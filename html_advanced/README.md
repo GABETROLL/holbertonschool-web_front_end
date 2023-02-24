@@ -21,3 +21,5 @@ These exercises are meant to be enjoyed in the order lised here.
 - add 3 ```article`` tags inside the "Works", "Latest news" and "Testimonials" sections.
 7. Copy ```6-index.html``` into ```7-index.html```. Inside ```7-index.html```:
 - Remove the "Header" text from inside the ```header``` tag, and put in an empty ```nav``` instead.
+8. Copy ```7-index.html``` into ```8-index.html```. Inside ```8-index.html```:
+- Add a ```h1``` tag inside the ```nav``` with "Header" inside of it.
