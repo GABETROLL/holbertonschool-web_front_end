@@ -1,19 +1,14 @@
 # Building a Website with Html
 ## By Holberton
 ### Exercises
-Each exercise (in the order in which they are listed here) will copy the code from the previous exercise and add features to it. These features are:
-
-```0-index.html```:
-its ```doctype``` tag and the English language metadata
-```1-index.html```:
-empty ```head``` and ```body``` tags inside the ```html``` tag
-```2-index.html```:
-inside the ```head``` tag:
-- setting the character set to ```UTF-8```
-- website fit and scale information
-- the website's tittle: "Homepage - Techium"
-- the website's description
-```3-index.html```:
-```header```, ```main``` and ```footer``` tags to the website with the tag's names as their content
-```article.html```:
-tittle change from "Homepage - Techium" to "Article - Techium" and an ```aside``` tage with "Aside" as its content
+These exercises are meant to be enjoyed in the order lised here.
+0. Make an HTML file called ```0-index.html``` with its ```doctype``` tag and the English language metadata.
+1. Copy ```0-index-html``` into ```1-index.html```. Inside ```1-index.html```: add empty ```head``` and ```body``` tags inside the ```html``` tag.
+2. Copy ```1-index.html``` into ```2-index.html``` and inside the ```head``` tag inside the new file:
+- set the character set to ```UTF-8```
+- add website fit and scale information
+- add the website's tittle: "Homepage - Techium"
+- add the website's description.
+3. Copy ```2-index.html``` into ```3-index.html```. Inside ```3-index.html```: add ```header```, ```main``` and ```footer``` tags inside the ```body``` tag with the tag's names as their content.
+4. Copy ```3-index.html``` into ```article.html```. Inside ```article.html```: change its title from "Homepage - Techium" to "Article - Techium". Add an ```aside``` tage with "Aside" as its content.
+5. Copy ```3-index.html``` into ```5-index.html```. Inside ```5-index.html```, add some sections.
