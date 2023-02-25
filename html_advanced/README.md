@@ -30,3 +30,8 @@ These exercises are meant to be enjoyed in the order lised here.
 - Replace the text in the 3 articles in the section with the "Works" ```h2```, replace the ```article```s' contents with these ```h3```'s: "Interior Design", "Web Development" and "Personal Brand"
 - Inside of the section with the "About Us" ```h2```, add 3 ```h3```'s that contain: "Who we are", "Our culture" and "How we work".
 - In the section with the "Lates news" ```h2```, replace the ```article```s' contents with ```h3```s containing Latin text.
+11. Copy ```3-index.html``` into ```11-styleguide.html```. Inside the new file:
+- change the title to "Styleguide - Techium",
+- empty the ```header```, ```main```, and ```footer```,
+- Add a ```header``` with an ```h2``` that says "Headings" to the ```main```,
+- Add "Heading level #" in every ```h#```.
