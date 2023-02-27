@@ -19,3 +19,4 @@
 - Add "Heading level #" in every ```h#```.
 ```12-index.html```: ```10-index.html``` with ```p```'s with "subtitles" below the ```h2```'s in the sections, and lots of new Latin(?) paragraphs somewhere inside those sections
 ```13-styleguide.html```: ```11-styleguide.html``` with a new section in main with a title, subtitle(?) and a Latin(?) paragraph
+```14-index.html```: ```12-index.html``` with a a span with the tet "Techium"
