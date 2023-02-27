@@ -17,3 +17,4 @@
 - empty ```header```, ```main```, and ```footer```,
 - a ```header``` with an ```h2``` that says "Headings" in the ```main```,
 - Add "Heading level #" in every ```h#```.
+```12-index.html```: ```10-index.html``` with ```p```'s with "subtitles" below the ```h2```'s in the sections, and lots of new Latin(?) paragraphs somewhere inside those sections
