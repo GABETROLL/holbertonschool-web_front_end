@@ -22,3 +22,4 @@
 ```14-index.html```: ```12-index.html``` with a a span with the tet "Techium"
 ```15-index.html```: ```14-index.html``` with its ```header```, all its ```section```s and ```footer``` wrapped in a ```div```
 ```16-index.html```: ```15-index.html``` with a ```header``` wrapping every "title" and first ```p``` at the top of every section (except the "Homepage" section) and a div wrapping everything else in that section
+```17-index.html```: ```16-index.html``` with comments above each section, and other things
