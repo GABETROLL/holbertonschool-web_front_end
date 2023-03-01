@@ -28,4 +28,4 @@
 ```20-index.html```: ```18-index.html```, with links to each section (I'm not sure if I was allowed to do this, but I used ```id```'s)
 ```21-index.html```: ```20-index```, but with links to Holberton's social media profiles instead of the "Footer" text
 ```22-index.html```: ```21-index.html``` with links to the HTML files named the ```section```s' headings
-```23-index.html```: ```22-index.html``` with ```a```'s linking to ```#``` wrapped around each ```h3``` in the "Services", "Works" and "Latest news" sections
+```23-index.html```: ```22-index.html``` with ```a```'s linking to ```#``` wrapped around each ```h3```'s text in the "Services", "Works" and "Latest news" sections
