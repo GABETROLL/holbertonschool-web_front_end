@@ -29,4 +29,5 @@
 ```21-index.html```: ```20-index```, but with links to Holberton's social media profiles instead of the "Footer" text
 ```22-index.html```: ```21-index.html``` with links to the HTML files named the ```section```s' headings
 ```23-index.html```: ```22-index.html``` with ```a```'s linking to ```#``` wrapped around each ```h3```'s text in the "Services", "Works" and "Latest news" sections
-```24-index.html```: ```23-index.html```, the links in the ```nav``` and ```footer``` turned into ```ul``` (unordered lists) by being wrapped each link into an ```li```
+```24-index.html```: ```23-index.html```, with the links in the ```nav``` and ```footer``` turned into ```ul``` (unordered lists) by being wrapped each link into an ```li```
+```25-index.html```: ```26-index.html```, with website policy links in a ```ul``` at the bottom of the ```footer```
