@@ -25,3 +25,5 @@
 ```17-index.html```: ```16-index.html``` with comments above each section, and other things
 ```18-index.html```: ```17-index.html``` with an ```a``` wrapping the ```span``` in the first ```header``` of the page, linking to the top of the homepage
 ```about.html```, ```latest_news.html``` and ```contact.html```: same as ```index.html```, but with their titles almost the same as their file names
+```20-index.html```: ```18-index.html```, with links to each section (I'm not sure if I was allowed to do this, but I used ```id```'s)
+```21-index.html```: ```20-index```, but with links to Holberton's social media profiles instead of the "Footer" text
