@@ -24,3 +24,4 @@
 ```16-index.html```: ```15-index.html``` with a ```header``` wrapping every "title" and first ```p``` at the top of every section (except the "Homepage" section) and a div wrapping everything else in that section
 ```17-index.html```: ```16-index.html``` with comments above each section, and other things
 ```18-index.html```: ```17-index.html``` with an ```a``` wrapping the ```span``` in the first ```header``` of the page, linking to the top of the homepage
+```about.html```, ```latest_news.html``` and ```contact.html```: same as ```index.html```, but with their titles almost the same as their file names
