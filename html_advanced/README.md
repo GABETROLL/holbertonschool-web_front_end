@@ -36,3 +36,4 @@
 - ```28-styleguide.html```: ```26-styleguide.html``` with an ```hr``` showcase
 - ```29-index.html```: ```27-index.html``` with blockquotes with quotes and their authors, instead of plain text, in the "Testimonials" section
 - ```30-styleguide.html```: ```28-styleguide.html``` wirh an inline quote showcase (the tag is ```q```) and a blockquote showcase (the tag is ```blockquote```)
+- ```31-index.html```: ```29-index.html``` with an address and author citations in the "Latest news" section
