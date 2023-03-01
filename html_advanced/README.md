@@ -34,4 +34,4 @@
 - ```26-styleguide.html```: ```13-styleguide.html``` with ordered, unordered and definition lists inside the ```main```
 - ```27-index.html```: ```25-index.html```, with an ```hr``` and a ```p``` with a message from us, the students. God loves you.
 - ```28-styleguide.html```: ```26-styleguide.html``` with an ```hr``` showcase
-- ```29-index.html```: ```27-index.html``` with blockquotes with quotes and their authors in the "Testimonials" section
+- ```29-index.html```: ```27-index.html``` with blockquotes with quotes and their authors, instead of plain text, in the "Testimonials" section
