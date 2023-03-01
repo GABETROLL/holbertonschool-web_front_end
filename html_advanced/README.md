@@ -33,3 +33,4 @@
 - ```25-index.html```: ```24-index.html```, with website policy links in a ```ul``` at the bottom of the ```footer```
 - ```26-styleguide.html```: ```13-styleguide.html``` with ordered, unordered and definition lists inside the ```main```
 - ```27-index.html```: ```25-index.html```, with an ```hr``` and a ```p``` with a message from us, the students. God loves you.
+- ```28-styleguide.html```: ```26-styleguide.html``` with an ```hr``` showcase
