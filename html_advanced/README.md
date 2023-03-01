@@ -1,33 +1,34 @@
 # Building a Website with Html
 ## By Holberton
 ### Exercises
-```0-index.html```: HTML file with its ```doctype``` tag and the English language metadata.
-```1-index.html```: ```0-index.html``` with empty ```head``` and ```body``` tags inside the ```html``` tag.
-```2-index.html```: ```1-index.html``` with a title, description and metadata
-```3-index.html```: ```2-index.html``` with a ```header```, ```main``` and ```footer``` tags inside the ```body``` tag with the tag's names as their content
-```article.html```: ```3-index.html``` wit "Article - Techium" as its new title and an ```aside``` tage with "Aside" as its content
-```5-index.html```: ```3-index.html``` with some sections
-```6-index.html```: ```5-index.html``` with 3 ```article`` tags inside the "Works", "Latest news" and "Testimonials" sections.
-```7-index.html```: ```6-index.html``` bit with a ```nav``` inside the ```header``` instead of "Header"
-```8-index.html```: ```7-index.html``` with an ```h1``` tag inside the ```main``` (before anything else inside the ```main```) with "Header" inside of it.
-```9-index.html```: ```8-index.html``` with all the section texts as ```h2```'s
-```10-index.html```: ```9-index.html``` with more content inside the different sections
-```11-styleguide.html```: ```3-index.html``` with:
+- ```0-index.html```: HTML file with its ```doctype``` tag and the English language metadata.
+- ```1-index.html```: ```0-index.html``` with empty ```head``` and ```body``` tags inside the ```html``` tag.
+- ```2-index.html```: ```1-index.html``` with a title, description and metadata
+- ```3-index.html```: ```2-index.html``` with a ```header```, ```main``` and ```footer``` tags inside the ```body``` tag with the tag's names as their content
+- ```article.html```: ```3-index.html``` wit "Article - Techium" as its new title and an ```aside``` tage with "Aside" as its content
+- ```5-index.html```: ```3-index.html``` with some sections
+- ```6-index.html```: ```5-index.html``` with 3 ```article`` tags inside the "Works", "Latest news" and "Testimonials" sections.
+- ```7-index.html```: ```6-index.html``` bit with a ```nav``` inside the ```header``` instead of "Header"
+- ```8-index.html```: ```7-index.html``` with an ```h1``` tag inside the ```main``` (before anything else inside the ```main```) with "Header" inside of it.
+- ```9-index.html```: ```8-index.html``` with all the section texts as ```h2```'s
+- ```10-index.html```: ```9-index.html``` with more content inside the different sections
+- ```11-styleguide.html```: ```3-index.html``` with:
 - "Styleguide - Techium" as the title,
 - empty ```header```, ```main```, and ```footer```,
 - a ```header``` with an ```h2``` that says "Headings" in the ```main```,
 - Add "Heading level #" in every ```h#```.
-```12-index.html```: ```10-index.html``` with ```p```'s with "subtitles" below the ```h2```'s in the sections, and lots of new Latin(?) paragraphs somewhere inside those sections
-```13-styleguide.html```: ```11-styleguide.html``` with a new section in main with a title, subtitle(?) and a Latin(?) paragraph
-```14-index.html```: ```12-index.html``` with a a span with the tet "Techium"
-```15-index.html```: ```14-index.html``` with its ```header```, all its ```section```s and ```footer``` wrapped in a ```div```
-```16-index.html```: ```15-index.html``` with a ```header``` wrapping every "title" and first ```p``` at the top of every section (except the "Homepage" section) and a div wrapping everything else in that section
-```17-index.html```: ```16-index.html``` with comments above each section, and other things
-```18-index.html```: ```17-index.html``` with an ```a``` wrapping the ```span``` in the first ```header``` of the page, linking to the top of the homepage
-```about.html```, ```latest_news.html``` and ```contact.html```: same as ```index.html```, but with their titles almost the same as their file names
-```20-index.html```: ```18-index.html```, with links to each section (I'm not sure if I was allowed to do this, but I used ```id```'s)
-```21-index.html```: ```20-index```, but with links to Holberton's social media profiles instead of the "Footer" text
-```22-index.html```: ```21-index.html``` with links to the HTML files named the ```section```s' headings
-```23-index.html```: ```22-index.html``` with ```a```'s linking to ```#``` wrapped around each ```h3```'s text in the "Services", "Works" and "Latest news" sections
-```24-index.html```: ```23-index.html```, with the links in the ```nav``` and ```footer``` turned into ```ul``` (unordered lists) by being wrapped each link into an ```li```
-```25-index.html```: ```26-index.html```, with website policy links in a ```ul``` at the bottom of the ```footer```
+- ```12-index.html```: ```10-index.html``` with ```p```'s with "subtitles" below the ```h2```'s in the sections, and lots of new Latin(?) paragraphs somewhere inside those sections
+- ```13-styleguide.html```: ```11-styleguide.html``` with a new section in main with a title, subtitle(?) and a Latin(?) paragraph
+- ```14-index.html```: ```12-index.html``` with a a span with the tet "Techium"
+- ```15-index.html```: ```14-index.html``` with its ```header```, all its ```section```s and ```footer``` wrapped in a ```div```
+- ```16-index.html```: ```15-index.html``` with a ```header``` wrapping every "title" and first ```p``` at the top of every section (except the "Homepage" section) and a div wrapping everything else in that section
+- ```17-index.html```: ```16-index.html``` with comments above each section, and other things
+- ```18-index.html```: ```17-index.html``` with an ```a``` wrapping the ```span``` in the first ```header``` of the page, linking to the top of the homepage
+- ```about.html```, ```latest_news.html``` and ```contact.html```: same as ```index.html```, but with their titles almost the same as their file names
+- ```20-index.html```: ```18-index.html```, with links to each section (I'm not sure if I was allowed to do this, but I used ```id```'s)
+- ```21-index.html```: ```20-index```, but with links to Holberton's social media profiles instead of the "Footer" text
+- ```22-index.html```: ```21-index.html``` with links to the HTML files named the ```section```s' headings
+- ```23-index.html```: ```22-index.html``` with ```a```'s linking to ```#``` wrapped around each ```h3```'s text in the "Services", "Works" and "Latest news" sections
+- ```24-index.html```: ```23-index.html```, with the links in the ```nav``` and ```footer``` turned into ```ul``` (unordered lists) by being wrapped each link into an ```li```
+- ```25-index.html```: ```24-index.html```, with website policy links in a ```ul``` at the bottom of the ```footer```
+- ```26-styleguide.html```: ```13-styleguide.html``` with ordered, unordered and definition lists inside the ```main```
