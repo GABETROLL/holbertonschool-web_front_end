@@ -44,3 +44,4 @@
 - ```36-index.html```: ```35-index.html``` with images of the topics in each section
 - ```index.html```: (THE FINAL ```index.html``` FILE!!! LET'S GOO!!!) which is a copy of ```36-index.html``` with SVG icons instead of text inside the links in the footer
 - ```38-styleguide.html```: ```34-styleguide.html``` with a video ```section``` at the bottom of the ```main```
+- ```39-styleguide.html```: ```38-styleguide.html``` with an audio ```section``` at the bottom of the main
