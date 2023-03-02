@@ -42,3 +42,4 @@
 - ```34-styleguide.html```: ```33-styleguide.html``` a section with details and open details
 - ```35-index.html```: ```31-index.html``` with the website's logo (```logo-black.png```) in its parent header and in its footer
 - ```36-index.html```: ```35-index.html``` with images of the topics in each section
+- ```index.html```: (THE FINAL ```index.html``` FILE!!! LET'S GOO!!!) which is a copy of ```36-index.html``` with SVG icons instead of text inside the links in the footer
