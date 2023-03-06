@@ -24,3 +24,5 @@ The exercises are:
 11. How to transform a tag's text to ```uppercase```
 12. How to set a tag (with a class)'s margin to 0
 13. How to use pseudo classes to check an ```a```'s state
+14. Copying and pasting a ```normalize.css``` file from GitHub to ensure browser consistency
+- file: (normalize.css)[https://github.com/necolas/normalize.css/blob/master/normalize.css]
