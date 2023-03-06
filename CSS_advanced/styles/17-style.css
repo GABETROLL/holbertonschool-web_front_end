@@ -386,7 +386,7 @@
     /* top and bottom | left and right: */
     --section-padding: 5rem 0;
     /* top | left and right | bottom: */
-    --section-header-padding: 0 0 3em;
+    --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
