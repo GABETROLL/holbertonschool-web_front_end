@@ -26,3 +26,4 @@ The exercises are:
 13. How to use pseudo classes to check an ```a```'s state
 14. Copying and pasting a ```normalize.css``` file from GitHub to ensure browser consistency
 - file: (normalize.css)[https://github.com/necolas/normalize.css/blob/master/normalize.css]
+15. How to reset the way all the boxes are displayed, and make their border and padding take part INSIDE their ```width``` and ```height```, and not be placed outside
