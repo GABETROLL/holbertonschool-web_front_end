@@ -28,4 +28,8 @@ The exercises are:
 - file: (normalize.css)[https://github.com/necolas/normalize.css/blob/master/normalize.css]
 15. How to reset the way all the boxes are displayed, and make their border and padding take part INSIDE their ```width``` and ```height```, and not be placed outside
 16. How to split the margin equally on the left and right of a tag's boxes
-17 How to declare the ```padding```s of multiples sides of a box in a single line using spaces
+17. How to declare the ```padding```s of multiples sides of a box in a single line using spaces
+18. How to:
+- target an element that's a member of a class, and that's a child of another element that's a member of another class
+- make an element display in the same horizontal position as other elements (like the ```span``` tag) and still have its ```width``` and ```height``` attributes work
+- make an element take-up the whole width of the screen
