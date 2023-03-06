@@ -22,6 +22,10 @@
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    /* these measure how tall the text's box is,
+    measured using the text's
+    ```content-area```'s height
+    as the unit of measurement */
 }
 
 html {

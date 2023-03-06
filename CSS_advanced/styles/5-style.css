@@ -12,6 +12,9 @@
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
+    /* "rem" used in a tag's font's size
+    means the font's size is the root's (aka html's)
+    font size, times some amount */
 }
 
 html {
