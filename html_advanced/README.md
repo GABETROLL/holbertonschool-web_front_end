@@ -1,7 +1,10 @@
 # Building a Website with Html
 ## By Holberton
 ### Exercises
-There are 41 exercises, all of them involve two files: ```index.html``` and ```styleguide.html```. ```index.html``` tries to recreate an actual website, while ```styleguide.html``` showcases different things you can do in HTML. Each file with these names copies from the file with a number lower than it. The files without the nmber are the final result. ENJOY!! GOD BLEE YOU!!!
+There are 41 exercises, all of them involve two files: ```index.html``` and ```styleguide.html```. ```index.html``` tries to recreate an actual website, while ```styleguide.html``` showcases different things you can do in HTML. Each file with these names copies from the file with a number lower than it, and adds something more.
+---
+The files without the nmber are the final result. ENJOY!! GOD BLESS YOU!!!
+---
 - ```0-index.html```: HTML file with its ```doctype``` tag and the English language metadata.
 - ```1-index.html```: ```0-index.html``` with empty ```head``` and ```body``` tags inside the ```html``` tag.
 - ```2-index.html```: ```1-index.html``` with a title, description and metadata
