@@ -28,3 +28,4 @@ The exercises are:
 - file: (normalize.css)[https://github.com/necolas/normalize.css/blob/master/normalize.css]
 15. How to reset the way all the boxes are displayed, and make their border and padding take part INSIDE their ```width``` and ```height```, and not be placed outside
 16. How to split the margin equally on the left and right of a tag's boxes
+17 How to declare the ```padding```s of multiples sides of a box in a single line using spaces
