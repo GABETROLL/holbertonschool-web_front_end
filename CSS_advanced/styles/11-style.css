@@ -24,8 +24,6 @@
     --line-height-big: 1.8;
 
     --section-header-align: center;
-
-    --section-tagline-transform: uppercase;
 }
 
 html {
@@ -65,7 +63,4 @@ a {
 
 .section-tagline {
     color: var(--color-primary);
-    font-family: var(--font-family-title);
-    text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
 }
