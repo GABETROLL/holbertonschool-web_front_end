@@ -49,20 +49,25 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a[target="_blank"] {
+/* use ":link" to check if an anchor has a "href" attribute */
+a:link {
     color: #161616;
     text-decoration: none;
 }
 
-a[visited] {
+/* use "a:visited" to check if the link in "a" was already visited */
+a:visited {
     font-style: italic;
 }
 
-a[hover] {
+/* use "a:hover" to check if the link is being hovered on by a user's mouse */
+a:hover {
     text-decoration: underline;
 }
 
-a[active] {
+/* use "a:active" to check if the link is being clicked
+(at least according to w3schools.com) */
+a:active {
     background-color: var(--color-light-grey);
 }
 
