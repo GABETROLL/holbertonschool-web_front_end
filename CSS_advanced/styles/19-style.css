@@ -568,7 +568,7 @@ ul.row {
   list-style: none;
 }
 
-ul.footer {
+.footer ul {
   /* As far as I know, it's the same way
   MS Word aligns its text. */
   text-align: right;
