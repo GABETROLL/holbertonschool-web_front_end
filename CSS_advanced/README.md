@@ -4,10 +4,12 @@
 ```images/```: contains images for the website that will be styled here. (the images and website used here is the one from ```<this project's root folder>/html_advanced```)
 ```styles/```: Contains CSS files that style the website in the HTML directory mentioned above, with new features in each file, along with explanations for some of them.
 ---
+THE EXPLANATIONS ARE MY OWN THEORIES OF WHAT I THINK IS GOING ON, I KNOW NOTHING ABOUT CSS. PLEASE DON'T TAKE ANYTHING I SAY SERIOUSLY. I AM JUST A HYPOCRITE TO LEARN CSS AND MAKE A GITHUB REPOSITORY FOR MY COLLEGE, AND NOT LEAVE YOU IN THE DARK AS TO WHAT IS GOING ON
+---
 The exercises are:
 0. Get images
 1. How to make the website to scroll smoothly
-2. How to
+2. How to:
 - set the text color (aka "foreground color") to the contents of a tag
 - make a tag's contents invisible
 3. How to create global variables to use in properties in the CSS code
@@ -33,3 +35,7 @@ The exercises are:
 - target an element that's a member of a class, and that's a child of another element that's a member of another class
 - make an element display in the same horizontal position as other elements (like the ```span``` tag) and still have its ```width``` and ```height``` attributes work
 - make an element take-up the whole width of the screen
+- remove any type of bullet from the left of each element when it's being listed (in a ```.nav .nav-list``` class, most likely for a link list in the ```nav``` tag)
+19. How to:
+- make items "float" to one direction
+- align text (seemingly) similar to MS Word
