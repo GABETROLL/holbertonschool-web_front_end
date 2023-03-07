@@ -448,7 +448,16 @@ of another tag that is a member of the class 'nav'.
 .nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-display);
+  font-size: var(--nav-item-font-size);
+  /*
+  makes the browser put no bullet points of any kind
+  at the left of the elements in the nav-item class
+  when they're being listed
+  
+  (in a ```.nav .nav-list``` class, most likely for
+  a link list in the ```nav``` tag)
+  */
+  list-style: none;
   letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
@@ -457,6 +466,10 @@ of another tag that is a member of the class 'nav'.
 .nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+}
+
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
 }
 
 /*
