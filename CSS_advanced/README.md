@@ -4,7 +4,7 @@
 ```images/```: contains images for the website that will be styled here. (the images and website used here is the one from ```<this project's root folder>/html_advanced```)
 ```styles/```: Contains CSS files that style the website in the HTML directory mentioned above, with new features in each file, along with explanations for some of them.
 ---
-THE EXPLANATIONS ARE MY OWN THEORIES OF WHAT I THINK IS GOING ON, I KNOW NOTHING ABOUT CSS. PLEASE DON'T TAKE ANYTHING I SAY SERIOUSLY. I AM JUST A HYPOCRITE TO LEARN CSS AND MAKE A GITHUB REPOSITORY FOR MY COLLEGE, AND NOT LEAVE YOU IN THE DARK AS TO WHAT IS GOING ON
+(I hope I was correct in everything here)
 ---
 The exercises are:
 0. Get images
