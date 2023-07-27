@@ -1,6 +1,13 @@
-/* How to use @for */
+/*
+How to use @for
+(
+    In the for loop syntax,
+    "to"  is exclusive,
+    "through" is inclusive
+)
+*/
 
-@for $heading-size from 1 through 6 {
+@for $heading-size from 1 to 6 {
     h#{$heading-size} {
         font-size: #{$heading-size}px;
     }
