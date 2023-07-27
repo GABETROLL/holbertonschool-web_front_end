@@ -1,15 +1,15 @@
-$color: #3D3D3D;
-$bg-color: #3D3D3D;
+$color_0: #3D3D3D;
+$color_1: #6D6D6D;
 
 body {
-    color: $color;
-    background-color: $bg-color;
+    color: $color_0;
+    background-color: $color_1;
 }
 
 p {
-    color: $color;
+    color: $color_0;
 }
 
 h2 {
-    background-color: $bg-color;
+    background-color: $color_1;
 }
