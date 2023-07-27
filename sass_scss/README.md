@@ -9,3 +9,4 @@
 6. Use the SCSS parent selector: ``&``
 7. Use a nested class selector
 9. Use ``@extend``
+10. Use ``@each`` and ``#{}``
