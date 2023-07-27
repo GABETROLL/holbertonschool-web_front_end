@@ -8,6 +8,7 @@
 5. Select the first child, nested
 6. Use the SCSS parent selector: ``&``
 7. Use a nested class selector
+8. Use ``@mixin`` and ``#{}``
 9. Use ``@extend``
-10. Use ``@each`` and ``#{}``
+10. Use ``@each`` and  more of ``#{}``
 11. Use ``@for``
