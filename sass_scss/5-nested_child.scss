@@ -1,4 +1,10 @@
-/* Nested first child */
+/*
+Using a Nested first child selector.
+Results in:
+
+body { color: #3D3D3D; }
+> .red { color: #FF0000; }
+*/
 
 body {
     color: #3D3D3D;
