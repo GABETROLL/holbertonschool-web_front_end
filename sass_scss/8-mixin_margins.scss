@@ -1,4 +1,4 @@
-/* How to use @mixin and #{} */
+/* How to use the @mixin rule and its parameters */
 
 @mixin margin-mixin($margin-size-pixels) {
     margin-left: #{$margin-size-pixels};
