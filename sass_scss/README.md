@@ -10,3 +10,4 @@
 7. Use a nested class selector
 9. Use ``@extend``
 10. Use ``@each`` and ``#{}``
+11. Use ``@for``
