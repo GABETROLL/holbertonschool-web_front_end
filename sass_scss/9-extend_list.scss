@@ -1,9 +1,11 @@
-.info, .success, .warning {
+.info {
     font-size: 12px;
 }
 .warning {
+    @extend .info;
     color: #00FF00;
 }
 .success {
+    @extend .info;
     color: #FF0000;
 }
