@@ -9,3 +9,4 @@ The number at the start of the name of each file (``#-``) represents its version
 1. Add classes to each of the sections in ``1-index.html``
 2. Add ``flex-direction: row-reverse`` to the ``row`` class inside the ``section-latest-news`` class
 3. Join the two ``ul``'s in the services ``section`` into one, then add ``flex-wrap: wrap`` to ``.services-section .row``
+4. Change the widths of some rows and columns to use the ``rem`` unit
