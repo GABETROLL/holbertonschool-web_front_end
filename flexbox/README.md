@@ -10,4 +10,4 @@ The number at the start of the name of each file (``#-``) represents its version
 2. Add ``flex-direction: row-reverse`` to the ``row`` class inside the ``section-latest-news`` class
 3. Join the two ``ul``'s in the services ``section`` into one, then add ``flex-wrap: wrap`` to ``.services-section .row``
 4. Change the widths of some rows and columns to use the ``rem`` unit
-5. Make the ``header-container`` have ``display: flex; justify-content: space-around``, and remove the ``header-logo`` rules
+5. Wrap the HTML ``header``'s contents in a div with the class ``header-container``. In CSS, make the ``header-container`` have ``display: flex; justify-content: space-around``, remove the ``header-logo`` rules, and remove the ``--header-logo...`` variables
