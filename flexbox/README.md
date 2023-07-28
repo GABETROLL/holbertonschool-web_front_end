@@ -13,3 +13,4 @@ The number at the start of the name of each file (``#-``) represents its version
 5. Wrap the HTML ``header``'s contents in a div with the class ``header-container``. In CSS, make the ``header-container`` have ``display: flex; justify-content: space-around``, remove the ``header-logo`` and ``navbar-menu`` rules, and remove the ``--header-logo...`` variables
 6. Cut the ``margin`` declaration from ``.nav .nav-item`` and place it in a new selector: ``.nav .nav-item + .nav-item`` (immediate ``nav-item`` siblings inside ``nav``). Also change the ``nav-item`` margin from ``0 2rem 0 0`` to ``0 0 0 2rem``
 7. Vertically enter the header logo, by adding ``align-items: center`` to ``.header-container`` in CSS
+8. Use ``flex`` instead of ``padding`` in the hero section
