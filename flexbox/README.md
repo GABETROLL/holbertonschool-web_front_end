@@ -14,3 +14,4 @@ The number at the start of the name of each file (``#-``) represents its version
 6. Cut the ``margin`` declaration from ``.nav .nav-item`` and place it in a new selector: ``.nav .nav-item + .nav-item`` (immediate ``nav-item`` siblings inside ``nav``). Also change the ``nav-item`` margin from ``0 2rem 0 0`` to ``0 0 0 2rem``
 7. Vertically enter the header logo, by adding ``align-items: center`` to ``.header-container`` in CSS
 8. Use ``flex`` instead of ``padding`` in the hero section
+9. Center all of the columns inside the ``section-about-us``
