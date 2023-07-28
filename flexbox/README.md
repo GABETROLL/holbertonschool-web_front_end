@@ -11,3 +11,4 @@ The number at the start of the name of each file (``#-``) represents its version
 3. Join the two ``ul``'s in the services ``section`` into one, then add ``flex-wrap: wrap`` to ``.services-section .row``
 4. Change the widths of some rows and columns to use the ``rem`` unit
 5. Wrap the HTML ``header``'s contents in a div with the class ``header-container``. In CSS, make the ``header-container`` have ``display: flex; justify-content: space-around``, remove the ``header-logo`` and ``navbar-menu`` rules, and remove the ``--header-logo...`` variables
+6. Cut the ``margin`` declaration from ``.nav .nav-item`` and place it in a new selector: ``.nav .nav-item + .nav-item`` (immediate ``nav-item`` siblings inside ``nav``)
