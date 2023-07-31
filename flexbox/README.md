@@ -5,7 +5,7 @@ Each exercise updates these files, and creates a new version of them.
 The number at the start of the name of each file (``#-``) represents its version.
 
 ## Exercises
-0. Make the ``row`` class have ``display: flex``, remove the ``row::after`` selector and remove the ``float: left`` inside ``[class*='col-']``
+0. <strong>Start working with</strong> ``index.html``. Make the ``row`` class have ``display: flex``, remove the ``row::after`` selector and remove the ``float: left`` inside ``[class*='col-']``
 1. Add classes to each of the sections in ``1-index.html``
 2. Add ``flex-direction: row-reverse`` to the ``row`` class inside the ``section-latest-news`` class
 3. Join the two ``ul``'s in the services ``section`` into one, then add ``flex-wrap: wrap`` to ``.services-section .row``
@@ -15,5 +15,6 @@ The number at the start of the name of each file (``#-``) represents its version
 7. Vertically enter the header logo, by adding ``align-items: center`` to ``.header-container`` in CSS
 8. Use ``flex`` instead of ``padding`` in the hero section
 9. Center all of the columns inside the ``section-about-us``
-10. Make a new class selector ``hero-homepage``, move everything in ``section-hero`` to it, and change and add some things in the other ``section-`` seletors
-11. Add nice background and ajust some sizes (I don't know how those adjustments work)
+10. Start using a new HTML file: ``article.html``. Make a new class selector ``hero-homepage``, move everything in ``section-hero`` to it, and change and add some things in the other ``section-`` seletors
+11. In Add nice background and adjust some sizes (I don't know how those adjustments work)
+12. Add article before Hero section
