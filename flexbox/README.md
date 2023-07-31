@@ -19,3 +19,4 @@ The number at the start of the name of each file (``#-``) represents its version
 11. In Add nice background and adjust some sizes (I don't know how those adjustments work)
 12. Add ``ul`` article before Hero section
 13. Style lists inside the ``ul`` to have commas in between, have proper fonts, have border separators and proper margins and paddings
+14. Add a copy of the social links ``ul`` from the footer, inside the div with class ``post-share``, remove the instagram link and logo, and make the other two links take you nowhere (by making their links: ``#``)
