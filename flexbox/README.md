@@ -17,4 +17,5 @@ The number at the start of the name of each file (``#-``) represents its version
 9. Center all of the columns inside the ``section-about-us``
 10. Start using a new HTML file: ``article.html``. Make a new class selector ``hero-homepage``, move everything in ``section-hero`` to it, and change and add some things in the other ``section-`` seletors
 11. In Add nice background and adjust some sizes (I don't know how those adjustments work)
-12. Add article before Hero section
+12. Add ``ul`` article before Hero section
+13. Style lists inside the ``ul`` to have commas in between, have proper fonts, have border separators and proper margins and paddings
