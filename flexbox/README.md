@@ -15,3 +15,4 @@ The number at the start of the name of each file (``#-``) represents its version
 7. Vertically enter the header logo, by adding ``align-items: center`` to ``.header-container`` in CSS
 8. Use ``flex`` instead of ``padding`` in the hero section
 9. Center all of the columns inside the ``section-about-us``
+10. Make a new class selector ``hero-homepage``, move everything in ``section-hero`` to it, and change and add some things in the other ``section-`` seletors
