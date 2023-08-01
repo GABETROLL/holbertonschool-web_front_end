@@ -5,3 +5,4 @@
 2. Add two ``fieldset``s in the form, with divs in them, and make them have no border
 3. Add ``spans`` inside ``divs`` in the ``fieldset``s in the form, and add a ``Post my comment`` button
 4. Add text inputs inside the ``spans``, with their validations, and style them
+5. Add validation text help, and use CSS styling to hide it until the ``form-group`` is ``focused-within``
