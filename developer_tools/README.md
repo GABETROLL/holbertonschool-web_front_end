@@ -25,3 +25,6 @@ Each exercise's answer may be stored in a file starting with the same number.
     https://developer.chrome.com/docs/devtools/css/color/
     (scroll down to "Convert colors")
     *(BUT MAKE SURE YOU ROUND IT FIRST)*
+9. What is the ``max-width`` of the first ``div`` with class ``container`` in the section with the "ABOUT" ``h2``?
+    https://developer.chrome.com/docs/devtools/css/
+
