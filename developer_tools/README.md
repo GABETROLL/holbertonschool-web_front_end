@@ -24,3 +24,4 @@ Each exercise's answer may be stored in a file starting with the same number.
 8. What is the HSL format of the *Send!* button's ``background-color``?
     https://developer.chrome.com/docs/devtools/css/color/
     (scroll down to "Convert colors")
+    *(BUT MAKE SURE YOU ROUND IT FIRST)*
