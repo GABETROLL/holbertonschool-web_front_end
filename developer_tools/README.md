@@ -16,8 +16,10 @@ Each exercise's answer may be stored in a file starting with the same number.
 4. Change button styles in the DevTools
     https://developer.chrome.com/docs/devtools/css/
 5. Remove cake button
-    https://developer.chrome.com/docs/devtools/css/
-6. Where is the ``margin-bottom`` style of the "About" header defined?
+    https://dirask.com/posts/Google-Chrome-how-to-remove-html-element-in-chrome-dev-tools-pJ690p
+    (no need to do the first few steps, just right-click on the cake)
+6. Right-Click>Inspect the *ABOUT* ``h2``, and go to the ``Computed`` pane. Where is the ``margin-bottom`` style of the "About" header defined?
+    Just click on the arrow left of the property. *(It apparently gave me the right answer, but I'm not sure if this is a reliable way to do it. I could find any documentation on this. My apologies)*
 7. How many click event listeners are referenced in JavaScript files?
 8. What is the HSL format of the *Send!* button's ``background-color``?
     https://developer.chrome.com/docs/devtools/css/color/
