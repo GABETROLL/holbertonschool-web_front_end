@@ -32,4 +32,4 @@ Each exercise's answer may be stored in a file starting with the same number.
 
 13. Select the Avatar image in the header and type $0 in the console. Enter. What does it return?
     https://developer.chrome.com/docs/devtools/console/utilities/#recent-many
-14. Type ``console.log(document.title)`` in the DevTools console. What does it return?
+14. Type ``console.log(document.title)`` in the DevTools console. What does it "print"?
