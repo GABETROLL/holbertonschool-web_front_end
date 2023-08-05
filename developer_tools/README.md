@@ -29,3 +29,5 @@ Each exercise's answer may be stored in a file starting with the same number.
     https://developer.chrome.com/docs/devtools/css/
 10. Swap the "About" and "Portfolio" ``section``s
     I just dragged the "About" ``section`` tag in the inspect tab over the "Portfolio" ``section`` tag.
+
+13. Select the Avatar image in the header and type $0 in the console. Enter. What does it return?
