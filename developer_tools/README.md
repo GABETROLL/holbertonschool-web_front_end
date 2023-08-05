@@ -33,3 +33,11 @@ Each exercise's answer may be stored in a file starting with the same number.
 13. Select the Avatar image in the header and type $0 in the console. Enter. What does it return?
     https://developer.chrome.com/docs/devtools/console/utilities/#recent-many
 14. Type ``console.log(document.title)`` in the DevTools console. What does it "print"?
+15. Guess which JS framework this site uses.
+
+    A. React JS
+    B. Material Design
+    C. Bootstrap
+    D. Angular JS
+
+    I guessed Bootstrap because of the file names, which contained it a lot.
