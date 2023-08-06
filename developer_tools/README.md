@@ -50,3 +50,8 @@ Each exercise's answer may be stored in a file starting with the same number.
     https://developer.chrome.com/docs/devtools/sources/
     (I just used the same method as last exercise)
 20. What is the ``type`` value of the site's favicon?
+    https://developer.chrome.com/docs/devtools/dom/
+    (I just went to the favicon ``link`` element, in ``head``, and found the value)
+26. Which classes are on the images that have no alt attribute?
+    https://devtoolstips.org/tips/en/find-all-images-without-alt-text/
+    https://developer.chrome.com/docs/devtools/dom/
