@@ -58,3 +58,6 @@ Each exercise's answer may be stored in a file starting with the same number.
 27. Which attribute is missing on all the links with the target ``_blank``?
 30. Block all CSS requests. Take a screenshot of it.
     https://developer.chrome.com/docs/devtools/network/#block
+31. In the ``application`` panel, what is the only key present in the session storage for this page?
+    https://developer.chrome.com/docs/devtools/storage/sessionstorage/
+    https://www.freecodecamp.org/news/how-web-storage-works/
