@@ -44,3 +44,4 @@ Each exercise's answer may be stored in a file starting with the same number.
 16. What is the total weight of the page (with all the elements)? Take a screenshot of it
 17. What is the number of requests the browser does when loading the page? Take a screenshot of it.
 18. What is the number of CSS files being loaded by the browser in the page?
+19. What is the number of images loaded by the browser in the page?
