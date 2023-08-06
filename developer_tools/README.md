@@ -55,3 +55,5 @@ Each exercise's answer may be stored in a file starting with the same number.
 26. Which classes are on the images that have no alt attribute?
     https://devtoolstips.org/tips/en/find-all-images-without-alt-text/
     https://developer.chrome.com/docs/devtools/dom/
+27. Which attribute is missing on all the links with the target ``_blank``?
+30. Block all CSS requests. Take a screenshot of it.
