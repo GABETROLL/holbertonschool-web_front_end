@@ -57,3 +57,4 @@ Each exercise's answer may be stored in a file starting with the same number.
     https://developer.chrome.com/docs/devtools/dom/
 27. Which attribute is missing on all the links with the target ``_blank``?
 30. Block all CSS requests. Take a screenshot of it.
+    https://developer.chrome.com/docs/devtools/network/#block
