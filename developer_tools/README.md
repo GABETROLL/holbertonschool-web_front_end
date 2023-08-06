@@ -44,4 +44,9 @@ Each exercise's answer may be stored in a file starting with the same number.
 16. What is the total weight of the page (with all the elements)? Take a screenshot of it
 17. What is the number of requests the browser does when loading the page? Take a screenshot of it.
 18. What is the number of CSS files being loaded by the browser in the page?
+    https://developer.chrome.com/docs/devtools/sources/
+    (This is where I got the right answer, but I saw a different number of CSS files being loaded in the ``Network`` tab)
 19. What is the number of images loaded by the browser in the page?
+    https://developer.chrome.com/docs/devtools/sources/
+    (I just used the same method as last exercise)
+20. What is the ``type`` value of the site's favicon?
