@@ -59,7 +59,13 @@ Each exercise's answer may be stored in a file starting with the same number.
 22. What is the name of the resource that generates 1 XHR call?
     https://www.codexworld.com/how-to/monitor-ajax-requests-google-chrome/
 23. What is the notation for ``Performance`` (for desktop mode and no throttling - also called Lighthouse)?
-24. How many static assets need a better cache policy?
+24. Also in Lighthouse, How many static assets need a better cache policy?
+25. Still in Lighthouse, what is the contrast issue?
+    Write only the letter of the answer in the file starting with ``25``:
+
+    A. Image elements do not have [alt] attributes
+    B. Links do not have a discernible name
+    C. Background and foreground colors do not have a sufficient contrast ratio.
 26. Which classes are on the images that have no alt attribute?
     https://devtoolstips.org/tips/en/find-all-images-without-alt-text/
     https://developer.chrome.com/docs/devtools/dom/
