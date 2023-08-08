@@ -77,3 +77,4 @@ Each exercise's answer may be stored in a file starting with the same number.
     https://www.freecodecamp.org/news/how-web-storage-works/
 33. Which organization issued the SSL certificate for this site?
     https://developer.chrome.com/docs/devtools/security/
+34. When does the SSL certificate for this site expire? Take a screenshot of it.
