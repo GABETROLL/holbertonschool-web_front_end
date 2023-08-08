@@ -56,7 +56,7 @@ Each exercise's answer may be stored in a file starting with the same number.
     https://developer.chrome.com/docs/devtools/dom/
     (I just went to the favicon ``link`` element, in ``head``, and found the value)
 21. The site uses a *font library* for their icons, which one is it?
-
+22. What is the name of the resource that generates 1 XHR call?
 26. Which classes are on the images that have no alt attribute?
     https://devtoolstips.org/tips/en/find-all-images-without-alt-text/
     https://developer.chrome.com/docs/devtools/dom/
