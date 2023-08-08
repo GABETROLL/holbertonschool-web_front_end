@@ -75,3 +75,5 @@ Each exercise's answer may be stored in a file starting with the same number.
 31. In the ``application`` panel, what is the only key present in the session storage for this page?
     https://developer.chrome.com/docs/devtools/storage/sessionstorage/
     https://www.freecodecamp.org/news/how-web-storage-works/
+33. Which organization issued the SSL certificate for this site?
+    https://developer.chrome.com/docs/devtools/security/
