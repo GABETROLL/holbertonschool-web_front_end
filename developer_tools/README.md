@@ -21,6 +21,8 @@ Each exercise's answer may be stored in a file starting with the same number.
 6. Right-Click>Inspect the *ABOUT* ``h2``, and go to the ``Computed`` pane. Where is the ``margin-bottom`` style of the "About" header defined?
     Just click on the arrow left of the property. *(It apparently gave me the right answer, but I'm not sure if this is a reliable way to do it. I could find any documentation on this. My apologies)*
 7. How many click event listeners are referenced in JavaScript files?
+    https://umaar.com/dev-tips/24-view-event-listeners/
+    *(Remember to check the ``Framework listeners`` box to see all 9, otherwise you'd probably see 1!)*
 8. What is the HSL format of the *Send!* button's ``background-color``?
     https://developer.chrome.com/docs/devtools/css/color/
     (scroll down to "Convert colors")
