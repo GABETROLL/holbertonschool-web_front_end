@@ -2,3 +2,5 @@
 ``1``: Make banner background have ``background-position: 65% 8rem`` and ``backgorund-size: 90rem auto``, and make ``.section-hero .section-inner`` have ``min-height: 35vh``
 ``2``: Replace ``width`` with ``max-width`` in the ``.container`` selector
 ``2-1``: Use ``@media`` queries to make the navbar disappear, make list's directions be vertical, etc., when the browser screen is ``767px`` or less.
+``3``: Use multiple sizes of some images from [this webpage](https://www.responsivebreakpoints.com/), so that smaller images load in smaller browser windows
+``4``: For mobile, we must add a toggle button for the navbar, that makes it visible. We're using a checkbox ``input``, since it has a binary state that could be used for the ``navbar``'s display. For now, we'll make the ``navbar``'s ``display`` be ``none``, and prepare its ``flex-direction`` to be column, to more easily fit it in the mobile screen.
