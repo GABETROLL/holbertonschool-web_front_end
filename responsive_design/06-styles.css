@@ -329,6 +329,7 @@
       height: 100%;
       position: absolute;
       background: var(--color-white);
+      transition: all .2s ease-out;
     }
 
     .header .menu-icon .navicon::before {
