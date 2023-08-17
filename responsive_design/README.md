@@ -15,3 +15,4 @@
 ``7``: Use ``html``'s ``font-size`` property to make ALL of the font-sizes fit nicely in differently-sized browser windows
 ``8``: Make all of the ``card-work``'s have their title always visible and right below their ``.card-outer``, but only in mobile. (search for ``/* Card WORK``)
 ``9``: Change the ``.footer`` padding and space its nav items when in mobile
+``10``: Make the ``body`` tag be part of a new class called ``article-page``, and give ``.article-page .section-hero`` a ``padding-top`` of ``5rem``
