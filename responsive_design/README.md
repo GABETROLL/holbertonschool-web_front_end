@@ -12,3 +12,4 @@
 ``5``: Turn the label for the checkbox into a __hamburger button__
 
 ``6``: Make the ``navbar-menu`` disappear/appear when the __hamburger button__ is pressed, and make the __hamburger button__ turn into an __X__ when the ``navbar-menu`` is visible. Make the hamburger button disappear when the screen is wider than ``767px``.
+``7``: Use ``html``'s ``font-size`` property to make ALL of the font-sizes fit nicely in differently-sized browser windows
