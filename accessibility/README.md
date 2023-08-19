@@ -11,3 +11,4 @@
 - Add the page's ``title``
 - Add ``lang="en"`` to the ``html`` tag
 - Add ``alt`` for logo, and empty ``alt`` for decorative image
+- Add a ``label`` for the email ``input``, change the ``input``'s ``type`` to ``email``, add ``aria-required="true"`` to it, change the ``a`` that contains ``Validate`` to a ``button`` and remove the ``placeholder`` from the ``input``
