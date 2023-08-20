@@ -15,3 +15,5 @@
 - Add an ``aria-label`` for the social media icons at the bottom, so that the [https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn](Google Chrome Screen Reader) extension reads ``Facebook. Internal link.`` and not ``Internal link.``
 - Enable zooming in the page (to comply with WCAG 2.1 AA)
 - Make ``h#`` levels progress one-by-one. Visualize and fix heading levels with [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en)
+- Replace ``div`` tags with the important ``header``, ``main``, ``section`` and ``footer`` tags
+- Turn ``div``s into ``ul``s and its items into ``li``s, to make screenreaders read them as lists, its children as items in the list, since the screenreaders may not know that the items are supposed to be in lists.
