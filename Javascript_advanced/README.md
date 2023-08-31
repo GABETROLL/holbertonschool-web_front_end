@@ -1,3 +1,4 @@
 # Learning Advanced Javascript
 ## Exercises
-- Closures
+- Scopes
+- Scopes
