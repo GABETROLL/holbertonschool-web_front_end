@@ -2,3 +2,4 @@
 ## Exercises
 - Scopes
 - Scopes
+- Closures
