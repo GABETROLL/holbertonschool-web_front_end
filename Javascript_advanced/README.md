@@ -3,3 +3,4 @@
 - Scopes
 - Scopes
 - Closures
+- Closures
