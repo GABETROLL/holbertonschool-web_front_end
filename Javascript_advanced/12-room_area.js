@@ -8,5 +8,4 @@ const roomDimensions = {
 
 const boundGetArea = roomDimensions.getArea.bind(roomDimensions);
 
-roomDimensions.getArea();
 boundGetArea();
