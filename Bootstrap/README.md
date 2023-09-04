@@ -7,4 +7,5 @@ Use the Bootstrap framework by pasting this into the ``head``:
 ## Documentation
 https://getbootstrap.com/docs/4.4/getting-started/introduction/
 ## Exercises
-- Reboot styling
+``0``: Reboot styling
+``1-6``: Using different Bootstrap classes
