@@ -18,3 +18,4 @@ Your server should be running in your machine, at ``http://localhost:3000``.
 
 In ``10-index.html`` (client), make a ``GET`` request to the server's ``/port`` URL and display all of the posts in the ``body``
 ``11``: Add a form to the beggining of the page, and make the browser submit the post to the ``http://localhost:3000/posts`` server
+``12``: Add ``(delete)`` buttons at the left of each post, that send a ``DELETE`` request to the ``http://localhost:3000/...`` server, and delete the post ``p`` if the request was successful
