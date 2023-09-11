@@ -1,4 +1,3 @@
-// Same as exercise 9, but 100 times!
 function countPrimeNumbers() {
     let result = 0;
 
@@ -25,11 +24,10 @@ function countPrimeNumbers() {
 const before = performance.now();
 
 for (let i = 0; i < 100; i++) {
-    countPrimeNumbers();
+    setTimeout(countPrimeNumbers, 0);
 }
 
 const after = performance.now();
 
 const timeUsed = after - before;
-
 console.log('Execution time of calculating prime numbers 100 times was ' + timeUsed + ' milliseconds.');

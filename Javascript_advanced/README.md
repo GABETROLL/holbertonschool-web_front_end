@@ -5,5 +5,6 @@
 ``6``: Private class attributes
 ``7``: Use ``setTimeout``
 ``8``: See stack order of functions
+``9-11``: Using ``performance``
 ``12-13``: Binding a function to an object
 ``14``: HTTP Request with a callback function
