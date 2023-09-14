@@ -5,20 +5,38 @@ In this blog, I choose Regina, one of 3 personas from my Holberton assignment, t
 
 I chose Regina because she seemed very different from me. I wanted to try and have a break from myself, and try and see things from a different point of view, so that I can be a more un-biased designer.
 
-After looking through her profile, she seems like a very fun person that I would simpathize with very much, like the part where her profile says that she "likes to sing her heart off" in the trucks she's driving. Which is a plus, and I believe this could help me do a better job.
+After looking through her profile, she seems like a very fun person that I would simpathize with very much, like the part where her profile says that she "likes to sing her heart off" in the trucks she's driving. I believe this could help me do a better job.
 
-## Opportunities for improving Regina's experience
-### Functionality and Features
-If searching in the entire Spotify platform is different than searching in your own playlists, there should be different search inputs with clear, visible purpose.
+## Ideas
+Before I start, I'd like to clarify that I know that implementing some features that I mentioned here may be difficult to implement, even if they're simple, and in real-life, I'd find a way to satisfy both engineers and the user, but for the sake of pleasing Regina, I'll spit any idea that sounds good at first, in order to brainstorm, then pick what seems best.
 
-There should be one search bar for each playlist, that way Regina can play multiple songs of the same genre together before switching.
+- Sort the songs automatically?
+    No, because Regina may want to sort by date, genre, year, etc.
 
-There should be a "sort-by" drop-down that lets Regina sort by year, date added, artist, genre, folder, and maybe more. There should be one for all of her songs and one for each folder. This way. she has the most control.
+### My first approach would be to have an option for everything
 
-I think a good GUI lets the user know where to find any feature easily is without shoving all of the options in their face.
+"Your Library" would have a search bar for everything, each folder would have a search bar for each playlist, each playlist would have a search bar for each song.
 
-I think a good GUI expernience is knowing __where__ everything is, and knowing where to find any feature without having to search for it in the app. I like GUI's to feel more like a menu and less like a maze. And when I see Regina struggle with knowing which searchbar to use, I think...
+The same would be true for playing them, and sorting-by.
 
-So, for that reason, I'd make the search feature for the folders only pop up when the folder is clicked on, then have its play, sort-by label and drop-down show up. Also, hide the other search bars for her other saved songs to prevent her from getting confused.
+Each set of options would popup when collapsing a folder, playlist, song, etc..., And would let you search for and play anything below its hierarchy.
 
-Finally, the most important GUI change: move the ``div``(?) with the home and search icons on top of the whole app, as a header, instead of at the left, that way it's more clear that __that__ search bar searches the entire Spotify paltform. Also, add text on that search bar to say that explicitly, like with something like ``Search Spotify``.
+**IMAGE HERE**
+
+### Just make te searchbars be able to yield results for ANYTHING in its category.
+After trully inspecting the Spotify GUI, I realized that you already can find particular songs inside of a separate search bar for a playlist, **But you can't find a song through the main "Your Library" searchbar.**
+
+I think that having the "Your Library" searchbar look for EVERYTHING in "Your Library" is better **when you don't know where to look for things.** For example: searching in a folder should yield results for all of the playlists there, and all the songs there, in any of those playlists, as well.
+
+Then, I'd have every sub-searchbar that may appear in the app do the same, for maximum coverage.
+
+The search results should CLEARLY AND BOLDLY be labeled as a playlist, folder, genre, album, etc...
+
+### Organizing Regina's Library
+To **organize her library by groups** and have those groups be **patterns**:
+
+- I'd simply have a feature that creates a new folders to organize her already existing songs (like a "soft link" folder to existing songs in her library). You could have different folders dedicated to different ways of orginazing them, too. And to go above and beyond, have the option to manually make some changes before "saving" them, or sticking to the current ones.
+- Or simply add a ``sort by genre`` option when playing songs. However, this doesn't let Regina have a permanent, organized library, like she wanted.
+- Automatically generate and organize folders with different genres, dates, etc... **This should only be a search result, and not stored permanently**
+
+
