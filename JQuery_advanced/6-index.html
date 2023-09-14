@@ -46,10 +46,8 @@
 
                 if (position === 'before') {
                     $('tbody').prepend(newMember);
-                } else if (position === 'after') {
-                    $('tbody').append(newMember);
                 } else {
-                    console.log("Invalid 'position' parameter for 'addNewMember': '" + position + "'");
+                    $('tbody').append(newMember);
                 }
             }
 

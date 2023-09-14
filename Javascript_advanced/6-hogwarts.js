@@ -17,7 +17,7 @@ const studentHogwarts = (function () {
             changeScoreBy(-1);
         },
         getScore: function () {
-            return name + ': ' + privateScore;
+            return `${name}: ${privateScore}`;
         }
     };
 });

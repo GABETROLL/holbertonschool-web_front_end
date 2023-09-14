@@ -22,15 +22,15 @@
              * @param lastName {string}
              */
             function addNewMember(firstName, lastName) {
-                const newMember = $('<tr></tr>');
+                const newMember = $('<tr></tr>')
+                    .append(`<td>${firstName}</td>`)
+                    .append(`<td>${lastName}</td>`)
+                ;
 
-                newMember.append('<td>' + firstName + '</td>');
-                newMember.append('<td>' + lastName + '</td>');
+                const newMemberXButton = $('<td>').text('(x)');
 
-                const newMemberXButton = $('<td>(x)</td>');
                 newMemberXButton.css('background-color', 'orange');
-                newMemberXButton.on(
-                    'click',
+                newMemberXButton.click(
                     function () {
                         $(this).parent().remove();
                     }

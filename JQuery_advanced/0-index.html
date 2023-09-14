@@ -4,15 +4,13 @@
         <title>Task 0</title>
         <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
         <script type="application/javascript">
-            $(document).ready(
-                function () {
-                    if (jQuery) {
-                        console.log('jQuery has been loaded correctly');
-                    } else {
-                        console.log('jQuery has not been loaded correctly');
-                    }
+            window.onload = function () {
+                if (typeof jQuery == 'undefined' || typeof $ == 'undefined') {
+                    console.log('jQuery has not been loaded correctly');
+                } else {
+                    console.log('jQuery has been loaded correctly');
                 }
-            );
+            };
         </script>
     </head>
     <body></body>
