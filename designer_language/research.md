@@ -38,5 +38,10 @@ To **organize her library by groups** and have those groups be **patterns**:
 - I'd simply have a feature that creates a new folders to organize her already existing songs (like a "soft link" folder to existing songs in her library). You could have different folders dedicated to different ways of orginazing them, too. And to go above and beyond, have the option to manually make some changes before "saving" them, or sticking to the current ones. It should also allow Regina to manually edit the mistakes the algorhtims may make.
 - Or simply add a ``sort by genre`` option when playing songs. However, this doesn't let Regina have a permanent, organized library, like she wanted.
 - Automatically generate and organize folders with different genres, dates, etc... **This should only be a search result, and not stored permanently**
+- Finally, to me, It just seems more reasonable to me if she just clicks on the ``+`` in the ``Your Library`` tab, make a new playlist, then add songs to it using a PUBLIC search bar, and a PRIVATE search bar, for her already added music. This wouldn't be so hard to implement, but for the best UX experience, would need better guidance with the icons, and again, knowing where to find things.
+### Position and label search widgets to make their purpose clear
+- I'd move the ``Home Search`` div to be above the whole screen and make it bigger. Also, make the left side panel a bit bigger by default.
+- I'd then turn the little search button inside the ``Your Library`` into a visible searchbar, make it a bit bigger, and display a ``Search in Your Library`` placeholder, to make it more clear which search query goes where.
+- I'd add placeholders / labels for ALL the search bars, or make them go in clearly seperated sections that are somewhat clearly separated, or are farther appart from eachother.
 
-
+**I think I will keep all of these ideas**
