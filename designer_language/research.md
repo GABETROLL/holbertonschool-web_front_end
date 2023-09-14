@@ -35,7 +35,7 @@ The search results should CLEARLY AND BOLDLY be labeled as a playlist, folder, g
 ### Organizing Regina's Library
 To **organize her library by groups** and have those groups be **patterns**:
 
-- I'd simply have a feature that creates a new folders to organize her already existing songs (like a "soft link" folder to existing songs in her library). You could have different folders dedicated to different ways of orginazing them, too. And to go above and beyond, have the option to manually make some changes before "saving" them, or sticking to the current ones.
+- I'd simply have a feature that creates a new folders to organize her already existing songs (like a "soft link" folder to existing songs in her library). You could have different folders dedicated to different ways of orginazing them, too. And to go above and beyond, have the option to manually make some changes before "saving" them, or sticking to the current ones. It should also allow Regina to manually edit the mistakes the algorhtims may make.
 - Or simply add a ``sort by genre`` option when playing songs. However, this doesn't let Regina have a permanent, organized library, like she wanted.
 - Automatically generate and organize folders with different genres, dates, etc... **This should only be a search result, and not stored permanently**
 
