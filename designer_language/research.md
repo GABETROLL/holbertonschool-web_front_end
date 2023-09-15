@@ -5,8 +5,6 @@ In this blog, I choose Regina, one of 3 personas from my Holberton assignment, t
 
 I chose Regina because she seemed very different from me. I wanted to try and have a break from myself, and try and see things from a different point of view, so that I can be a more un-biased designer.
 
-After looking through her profile, she seems like a very fun person that I would simpathize with very much, like the part where her profile says that she "likes to sing her heart off" in the trucks she's driving. I believe this could help me do a better job.
-
 ## Ideas
 Before I start, I'd like to clarify that I know that implementing some features that I mentioned here may be difficult to implement, even if they're simple, and in real-life, I'd find a way to satisfy both engineers and the user, but for the sake of pleasing Regina, I'll spit any idea that sounds good at first, in order to brainstorm, then pick what seems best.
 
@@ -43,5 +41,10 @@ To **organize her library by groups** and have those groups be **patterns**:
 - I'd move the ``Home Search`` div to be above the whole screen and make it bigger. Also, make the left side panel a bit bigger by default.
 - I'd then turn the little search button inside the ``Your Library`` into a visible searchbar, make it a bit bigger, and display a ``Search in Your Library`` placeholder, to make it more clear which search query goes where.
 - I'd add placeholders / labels for ALL the search bars, or make them go in clearly seperated sections that are somewhat clearly separated, or are farther appart from eachother.
+- Change the color of the divs to match their purpose: the header and public Spotify search results should have the same background color A, and the ``Your Library`` ``div`` and private search results should have matcing background color B.
+- Make the playlist and song search results "come out" from ``Your Library`` when the results are in ``Your Library``, and search results "come out" from the top navbar when they are public search results
 
-**I think I will keep all of these ideas**
+### Add folders, playlists and songs to Your Library directly from the song's interface
+There should be a ``+`` button to add a song being played from publix results, that can search through places in ``Your Library`` to place the song in.
+## Final Ideas I've chosen
+Some things that are currently hidden by the interface should be a bit more explicit, like:
