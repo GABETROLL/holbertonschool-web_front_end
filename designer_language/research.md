@@ -5,11 +5,12 @@ In this blog, I choose Regina, one of 3 personas from my Holberton assignment, t
 
 I chose Regina because she seemed very different from me. I wanted to try and have a break from myself, and try and see things from a different point of view, so that I can be a more un-biased designer.
 
+## Introduction
+This is my first UX project, and the point of this blog post is for me to learn, so if you have any constructive feedback, I'd love to hear it!
+
+Also, I want to appologize, because I've never used Spotify, and I didn't decided not to even try to use the interface. Most of the ideas I made, I made before I even searched for a song online. So, let me know all of the inaccuracies I made in this project.
+
 ## Ideas
-Before I start, I'd like to clarify that I know that implementing some features that I mentioned here may be difficult to implement, even if they're simple, and in real-life, I'd find a way to satisfy both engineers and the user, but for the sake of pleasing Regina, I'll spit any idea that sounds good at first, in order to brainstorm, then pick what seems best.
-
-Also, I want to appologize, because I've never used Spotify, and I didn't fully use the interface. Most of the ideas I made, I made before I even searched for a song online.
-
 - Sort the songs automatically?
     No, because Regina may want to sort by date, genre, year, etc.
 
@@ -75,3 +76,29 @@ There should be a ``+`` button to add a song being played from public results, t
 <img src="idea7.jpg">
 
 ## Final Ideas I've chosen
+
+I've finally decided to
+- move the ``Home Search Online`` panel to be a header, **to make it easier for Regina to know that that searchbar is public, and not private**
+- Add placeholders that say where each searchbar is searching, **to give Regina more of a clue to where she's searching**
+- Make the library searchbar bigger and always visible, so that the placeholder can show up, **and show its purpose, that way Regina doesn't get confused where the input is going**
+- Make all of the searchbars search for ANYTHING where they're searching (folder, playlist, song, and maybe more), **So that Regina can find what she's looking for**
+- Add ``Your Feed``, or something similar, at the top of the feed, **to indicate its purpose**
+- Add ``Sort by`` option to **play** music
+- Add sorting by genre and year, if not present, since **Regina felt frustrated about that in her user chart**
+- Add an ``Add to Your Library...`` button on a song result in Soptify's public search results, and not just in the playlist, **to make it easier for her to add it**
+- Add two ways to add a song in a library: search for songs online, or use songs already in ``Your Library`` (**I just realized that this may make copies of songs, making them repeat while playing them, which may be annoying. This
+change may be removed in the prototype.**)
+
+### Mockups
+<img src="chosen_idea_1.jpg">
+How the initial state of the app is when you first open it
+<img src="chosen_idea_3.jpg">
+At the left, the search results in ``Your Library`` display anything inside of ``Your Library`` with that same name, same for the playlist at the right (This was meant to be a __zoomed in__ mockup of the app, don't panick)
+
+**The playlist pops out of the ``Your Library`` panel, and should __seem__ connected to it**
+<ing src="chosen_idea_0.jpg">
+Sort by genre is an option in both search results in ``Your Library`` and in playlists
+
+(The sorting method should affect both the playlist and the playist's search results. IT SHOULD NOT BE PERMANENTLY CHANGING THE ORDER THAT THEY'RE STORED IN)
+<img src="chosen_idea_2.jpg">
+The ``+`` button should expand the two search queries at the right.
