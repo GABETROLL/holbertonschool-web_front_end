@@ -8,6 +8,8 @@ I chose Regina because she seemed very different from me. I wanted to try and ha
 ## Ideas
 Before I start, I'd like to clarify that I know that implementing some features that I mentioned here may be difficult to implement, even if they're simple, and in real-life, I'd find a way to satisfy both engineers and the user, but for the sake of pleasing Regina, I'll spit any idea that sounds good at first, in order to brainstorm, then pick what seems best.
 
+Also, I want to appologize, because I've never used Spotify, and I didn't fully use the interface. Most of the ideas I made, I made before I even searched for a song online.
+
 - Sort the songs automatically?
     No, because Regina may want to sort by date, genre, year, etc.
 
@@ -19,7 +21,7 @@ The same would be true for playing them, and sorting-by.
 
 Each set of options would popup when collapsing a folder, playlist, song, etc..., And would let you search for and play anything below its hierarchy.
 
-**IMAGE HERE**
+<img src="idea0.jpg">
 
 ### Just make te searchbars be able to yield results for ANYTHING in its category.
 After trully inspecting the Spotify GUI, I realized that you already can find particular songs inside of a separate search bar for a playlist, **But you can't find a song through the main "Your Library" searchbar.**
@@ -30,21 +32,46 @@ Then, I'd have every sub-searchbar that may appear in the app do the same, for m
 
 The search results should CLEARLY AND BOLDLY be labeled as a playlist, folder, genre, album, etc...
 
+<img src="idea1.jpg">
+
+(I had refused to trully use Spotify yet, so I didn't know that the playlists would become big in the main panel, and their own searchbars would be there, but I discovered that the searchbar in ``Your Library`` was **still incapable of searching for ANY SONG, and not just playlists**)
+
 ### Organizing Regina's Library
 To **organize her library by groups** and have those groups be **patterns**:
 
-- I'd simply have a feature that creates a new folders to organize her already existing songs (like a "soft link" folder to existing songs in her library). You could have different folders dedicated to different ways of orginazing them, too. And to go above and beyond, have the option to manually make some changes before "saving" them, or sticking to the current ones. It should also allow Regina to manually edit the mistakes the algorhtims may make.
-- Or simply add a ``sort by genre`` option when playing songs. However, this doesn't let Regina have a permanent, organized library, like she wanted.
-- Automatically generate and organize folders with different genres, dates, etc... **This should only be a search result, and not stored permanently**
-- Finally, to me, It just seems more reasonable to me if she just clicks on the ``+`` in the ``Your Library`` tab, make a new playlist, then add songs to it using a PUBLIC search bar, and a PRIVATE search bar, for her already added music. This wouldn't be so hard to implement, but for the best UX experience, would need better guidance with the icons, and again, knowing where to find things.
+I'd simply have a feature that creates a new folders to organize her already existing songs (like a "soft link" folder to existing songs in her library). You could have different folders dedicated to different ways of orginazing them, too. And to go above and beyond, have the option to manually make some changes before "saving" them, or sticking to the current ones. It should also allow Regina to manually edit the mistakes the algorhtims may make.
+
+Or simply add a ``sort by genre`` option when playing songs. However, this doesn't let Regina have a permanent, organized library, like she wanted.
+
+<img src="idea2.jpg">
+
+Automatically generate and organize folders with different genres, dates, etc... **This should only be a search result, and not stored permanently**
+
+Finally, to me, It just seems more reasonable to me if she just clicks on the ``+`` in the ``Your Library`` tab, make a new playlist, then add songs to it using a PUBLIC search bar, and a PRIVATE search bar, for her already added music. This wouldn't be so hard to implement, but for the best UX experience, would need better guidance with the icons, and again, knowing where to find things.
+
+<img src="idea3.jpg">
+(By the time I drew this sketch, I had ACTUALLY used the interface a bit more)
+
 ### Position and label search widgets to make their purpose clear
-- I'd move the ``Home Search`` div to be above the whole screen and make it bigger. Also, make the left side panel a bit bigger by default.
-- I'd then turn the little search button inside the ``Your Library`` into a visible searchbar, make it a bit bigger, and display a ``Search in Your Library`` placeholder, to make it more clear which search query goes where.
-- I'd add placeholders / labels for ALL the search bars, or make them go in clearly seperated sections that are somewhat clearly separated, or are farther appart from eachother.
-- Change the color of the divs to match their purpose: the header and public Spotify search results should have the same background color A, and the ``Your Library`` ``div`` and private search results should have matcing background color B.
-- Make the playlist and song search results "come out" from ``Your Library`` when the results are in ``Your Library``, and search results "come out" from the top navbar when they are public search results
+I'd move the ``Home Search`` div to be above the whole screen and make it bigger. Also, make the left side panel a bit bigger by default.
+
+<img src="idea4.jpg">
+
+I'd then turn the little search button inside the ``Your Library`` into a visible searchbar, make it a bit bigger, and display a ``Search in Your Library`` placeholder, to make it more clear which search query goes where.
+
+<img src="idea5.jpg">
+
+I'd add placeholders / labels for ALL the search bars, or make them go in clearly seperated sections that are somewhat clearly separated, or are farther appart from eachother.
+
+<img src="idea6.jpg">
+
+Change the color of the divs to match their purpose: the header and public Spotify search results should have the same background color A, and the ``Your Library`` ``div`` and private search results should have matcing background color B.
+
+Make the playlist and song search results "come out" from ``Your Library`` when the results are in ``Your Library``, and search results "come out" from the top navbar when they are public search results
 
 ### Add folders, playlists and songs to Your Library directly from the song's interface
-There should be a ``+`` button to add a song being played from publix results, that can search through places in ``Your Library`` to place the song in.
+There should be a ``+`` button to add a song being played from public results, that can search through places in ``Your Library`` to place the song in.
+
+<img src="idea7.jpg">
+
 ## Final Ideas I've chosen
-Some things that are currently hidden by the interface should be a bit more explicit, like:
