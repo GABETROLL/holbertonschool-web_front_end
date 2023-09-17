@@ -88,6 +88,7 @@ I've finally decided to
 - Add an ``Add to Your Library...`` button on a song result in Soptify's public search results, and not just in the playlist, **to make it easier for her to add it**
 - Add two ways to add a song in a library: search for songs online, or use songs already in ``Your Library`` (**I just realized that this may make copies of songs, making them repeat while playing them, which may be annoying. This
 change may be removed in the prototype.**)
+- Move ``Your Feed`` together with the header
 
 ### Mockups
 <img src="chosen_idea_1.jpg">
@@ -102,3 +103,6 @@ Sort by genre is an option in both search results in ``Your Library`` and in pla
 (The sorting method should affect both the playlist and the playist's search results. IT SHOULD NOT BE PERMANENTLY CHANGING THE ORDER THAT THEY'RE STORED IN)
 <img src="chosen_idea_2.jpg">
 The ``+`` button should expand the two search queries at the right.
+
+## Why did I choose these ones?
+I thought they would give more control, express purpose clearly, allow Regina to find and add songs to her library easier.
