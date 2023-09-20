@@ -84,10 +84,10 @@ I've finally decided to
 - Make all of the searchbars search for ANYTHING where they're searching (folder, playlist, song, and maybe more), **So that Regina can find what she's looking for**
 - Add ``Your Feed``, or something similar, at the top of the feed, **to indicate its purpose**
 - Add ``Sort by`` option to **play** music
-- Add sorting by genre and year, if not present, since **Regina felt frustrated about that in her user chart**
+- Add sorting by genre and year, if not present, since **Regina felt frustrated about that in her user chart**.
 - Add an ``Add to Your Library...`` button on a song result in Soptify's public search results, and not just in the playlist, **to make it easier for her to add it**
-- Add two ways to add a song in a library: search for songs online, or use songs already in ``Your Library`` (**I just realized that this may make copies of songs, making them repeat while playing them, which may be annoying. This
-change may be removed in the prototype.**)
+- Add two ways to add a song in a library: search for songs online, or use songs already in ``Your Library`` \(**I just realized that this may make copies of songs, making them repeat while playing them, which may be annoying. This
+change may be removed in the prototype.**\)
 
 ### Mockups
 <img src="chosen_idea_1.jpg">
@@ -97,7 +97,7 @@ At the left, the search results in ``Your Library`` display anything inside of `
 
 **The playlist pops out of the ``Your Library`` panel, and should __seem__ connected to it**
 <ing src="chosen_idea_0.jpg">
-Sort by genre is an option in both search results in ``Your Library`` and in playlists
+``Sort by`` ``Genre`` and ``Year`` an option in both search results in ``Your Library`` and in playlist.
 
 (The sorting method should affect both the playlist and the playist's search results. IT SHOULD NOT BE PERMANENTLY CHANGING THE ORDER THAT THEY'RE STORED IN)
 <img src="chosen_idea_2.jpg">
@@ -109,3 +109,6 @@ Anything that could be added to ``Your Library`` found online should have an opt
 
 ## Why did I choose these ones?
 I thought they would give more control, express purpose clearly, allow Regina to find and add songs to her library easier.
+
+## Figma Mockups
+Here's the [prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
