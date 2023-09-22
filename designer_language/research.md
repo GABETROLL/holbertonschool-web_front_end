@@ -82,7 +82,7 @@ There should be a ``+`` button to add a song being played from public results, t
 - Make the library searchbar bigger and always visible, so that the placeholder can show up, **and show its purpose, that way Regina doesn't get confused where the input is going**
 - Add ``Your Feed``, or something similar, at the top of the feed, **to indicate its purpose**
 
-### Add more ways to find and organize search results
+### Add more ways to find and organize search results, in search results or Playlists
 - Make all of the searchbars search for ANYTHING where they're searching (folder, playlist, song, and maybe more), **So that Regina can find what she's looking for**
 - Add ``Sort by`` option to **play AND search for** music in a playlist
 - Add ``Genre`` and ``Year`` as ``Sort by`` options, since **Regina felt frustrated about that in her user chart**.
@@ -111,7 +111,7 @@ Anything that could be added to ``Your Library`` found online should have an opt
 ## Why did I choose these ones?
 I thought they would give more control, express purpose clearly, allow Regina to find and add songs to her library easier.
 
-## Figma Mockups
+## Figma Prototypes
 Here's the [prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
 
 ## Regina's Feedback
