@@ -48,10 +48,9 @@ Or simply add a ``sort by genre`` option when playing songs. However, this doesn
 
 Automatically generate and organize folders with different genres, dates, etc... **This should only be a search result, and not stored permanently**
 
-Finally, to me, It just seems more reasonable to me if she just clicks on the ``+`` in the ``Your Library`` tab, make a new playlist, then add songs to it using a PUBLIC search bar, and a PRIVATE search bar, for her already added music. This wouldn't be so hard to implement, but for the best UX experience, would need better guidance with the icons, and again, knowing where to find things.
+Adding an option to create a new group (or playlist or folder). Then adding an option to save music from online into ``Your Library``, and having the app make Regina choose where. (I think adding a new playlist or new folder in ``Your Library`` could do the same)
 
-<img src="idea3.jpg">
-(By the time I drew this sketch, I had ACTUALLY used the interface a bit more)
+(By this time, I had used the interface a bit more)
 
 ### Position and label search widgets to make their purpose clear
 I'd move the ``Home Search`` div to be above the whole screen and make it bigger. Also, make the left side panel a bit bigger by default.
@@ -75,19 +74,23 @@ There should be a ``+`` button to add a song being played from public results, t
 
 <img src="idea7.jpg">
 
-## Final Ideas I've chosen
+## Final Solutions
 
-I've finally decided to
+### Specify more what each widget does
 - move the ``Home Search Online`` panel to be a header, **to make it easier for Regina to know that that searchbar is public, and not private**
 - Add placeholders that say where each searchbar is searching, **to give Regina more of a clue to where she's searching**
 - Make the library searchbar bigger and always visible, so that the placeholder can show up, **and show its purpose, that way Regina doesn't get confused where the input is going**
-- Make all of the searchbars search for ANYTHING where they're searching (folder, playlist, song, and maybe more), **So that Regina can find what she's looking for**
 - Add ``Your Feed``, or something similar, at the top of the feed, **to indicate its purpose**
-- Add ``Sort by`` option to **play** music
-- Add sorting by genre and year, if not present, since **Regina felt frustrated about that in her user chart**.
-- Add an ``Add to Your Library...`` button on a song result in Soptify's public search results, and not just in the playlist, **to make it easier for her to add it**
-- Add two ways to add a song in a library: search for songs online, or use songs already in ``Your Library`` \(**I just realized that this may make copies of songs, making them repeat while playing them, which may be annoying. This
-change may be removed in the prototype.**\)
+
+### Add more ways to find and organize search results
+- Make all of the searchbars search for ANYTHING where they're searching (folder, playlist, song, and maybe more), **So that Regina can find what she's looking for**
+- Add ``Sort by`` option to **play AND search for** music in a playlist
+- Add ``Genre`` and ``Year`` as ``Sort by`` options, since **Regina felt frustrated about that in her user chart**.
+
+### Add 2 more options to add songs to Your Library
+- Add an ``Add to Your Library...`` button on a song result in Soptify's public search results, and not just in the playlist, **to make it easier for her to add it**. Inside the popup that button triggers should be an option to create a new playlist/folder to put the song in.
+
+- Add two ways to add a song in a library: search for songs online, or use songs already in ``Your Library`` (The songs would be added as a "link" to a song. This would allow results to not repeat when being searched, while still maintaining copies of songs in multiple playlists/folders when necessary)
 
 ### Mockups
 <img src="chosen_idea_1.jpg">
@@ -100,8 +103,6 @@ At the left, the search results in ``Your Library`` display anything inside of `
 ``Sort by`` ``Genre`` and ``Year`` an option in both search results in ``Your Library`` and in playlist.
 
 (The sorting method should affect both the playlist and the playist's search results. IT SHOULD NOT BE PERMANENTLY CHANGING THE ORDER THAT THEY'RE STORED IN)
-<img src="chosen_idea_2.jpg">
-The ``+`` button should expand the two search queries at the right.
 
 <img src="chosen_idea_4.jpg">
 <img src="chosen_idea_5.jpg">
@@ -112,3 +113,6 @@ I thought they would give more control, express purpose clearly, allow Regina to
 
 ## Figma Mockups
 Here's the [prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
+
+## Regina's Feedback
+"I appreciate that this new version of Spotify can search for everything in my Library. And I'm glad that there's now an option to add music from Online directly to My Library. I prefer the more visible options and more flexible searching, since there's often too many steps to do anything in apps."
