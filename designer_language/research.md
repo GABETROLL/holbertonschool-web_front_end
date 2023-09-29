@@ -1,7 +1,55 @@
 In this blog, I choose Regina, one of 3 personas from my Holberton assignment, to create a better UX experience for her, and to learn more about UX.
 
-[Regina's Persona](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2020/2/c7786afc216b3a98a651.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230912%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230912T190044Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2da63b72e0f996c73ca5b1ecac423098d31a59c3f1b30d846a30282b28cc891c)
-[Regina's User Journey Map](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2020/2/accd845a3edce3f3f311.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230912%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230912T190059Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ca6798041403175929ddc3a23a401d1e85ad3375b7ea950027d88952a7aab478)
+## Chosen Persona
+### Regina's Persona
+<img src="Regina_persona.jpg">
+
+Regina studied to be an Opera Singer. After that, she realized that she wouldn't make a living out of it. Since she liked road-trips, she reinvented herself by driving cargo trucks cross country, while listening to music and endlessly singing her heart out.
+
+Regina is not so comfortable with new technologies, but her grandson introduced her to Spotify, since he thought it would be a better idea that her switching CD's all day long.
+
+#### Her UX goals
+(What she's trying to achieve)
+- finding songs more easily in her library
+- organize her library by groups
+- efficiently find songs added to her library when she has something specific in mind
+
+#### Her UX needs
+(What will help achieve her goals)
+- Get quality over quantity in her search
+- Sort or group her songs by patterns
+- Accompainment with the search
+
+#### Her UX wants
+(What will make achieveing her UX goals easier)
+- Build up a permanent library of saved songs like the one she has in real life
+- Intuitive ways to filter her library
+- Control her classification
+
+#### Her UX fears
+(Regina's worst-case UX scenarios)
+- Not knowing where to initiate her search
+since there are many entry points in the
+app
+- Scroll her entire library to find this one
+particular song
+- Listen to the same content at the top of her
+library
+- Have to build playlist that she will have to
+maintain overtime
+- Shuffle her entire library and end up with
+classical mixed with soul music
+
+### Regina's User Journey Map
+<img src="Regina_user_journey_map.jpg">
+
+Regina wanted to find her favorite music, so she first went into her ``Liked Songs`` in the ``Your Library`` section and scrolled endlessly, making her feel annoyed.
+
+Then, seached for it in the top searchbar, but then she relized that that searchbar isn't searching in __her__ music. So, she re-typed it in the correct one, and played it.
+
+After that music finished playing, another song of a completely different genre started playing. Regina hates it when the genres switch.
+
+## Why did I choose Regina?
 
 I chose Regina because she seemed very different from me. I wanted to see things from a different point of view.
 
