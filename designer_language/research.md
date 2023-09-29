@@ -3,7 +3,14 @@ In this blog, I choose Regina, one of 3 personas from my Holberton assignment, t
 [Regina's Persona](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2020/2/c7786afc216b3a98a651.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230912%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230912T190044Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2da63b72e0f996c73ca5b1ecac423098d31a59c3f1b30d846a30282b28cc891c)
 [Regina's User Journey Map](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2020/2/accd845a3edce3f3f311.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230912%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230912T190059Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ca6798041403175929ddc3a23a401d1e85ad3375b7ea950027d88952a7aab478)
 
-I chose Regina because she seemed very different from me. I wanted to try and have a break from myself, and try and see things from a different point of view, so that I can be a more un-biased designer.
+I chose Regina because she seemed very different from me. I wanted to see things from a different point of view.
+
+## Opportunities for Improving the UI
+The biggest opportunities for improvement that I saw after doing the sketches and protypes, are:
+- to make the purpose of the widgets in the app be more clear
+- to make adding new songs easier, as little operations as possible
+- to make finding a song in ``Your Library`` easier
+- making the size of widgets bigger 
 
 ## Introduction
 This is my first UX project, and the point of this blog post is for me to learn, so if you have any constructive feedback, I'd love to hear it!
@@ -74,11 +81,11 @@ There should be a ``+`` button to add a song being played from public results, t
 
 <img src="idea7.jpg">
 
-## Final Solutions
+## Final 3-in-1 Solution
 
 ### Specify more what each widget does
 - move the ``Home Search Online`` panel to be a header, **to make it easier for Regina to know that that searchbar is public, and not private**
-- Add placeholders that say where each searchbar is searching, **to give Regina more of a clue to where she's searching**
+- Make all of the searchbars have intuitive placeholders that say where each searchbar is searching, **to give Regina more of a clue to where she's searching**
 - Make the library searchbar bigger and always visible, so that the placeholder can show up, **and show its purpose, that way Regina doesn't get confused where the input is going**
 - Add ``Your Feed``, or something similar, at the top of the feed, **to indicate its purpose**
 
