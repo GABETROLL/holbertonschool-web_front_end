@@ -170,4 +170,4 @@ I thought they would give more control, express purpose clearly, allow Regina to
 Here's the [prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
 
 ## Regina's Feedback
-"I appreciate that this new version of Spotify can search for everything in my Library. And I'm glad that there's now an option to add music from Online directly to My Library. I prefer the more visible options and more flexible searching, since there's often too many steps to do anything in apps."
+"I'm glad that there's now an option to add music from Online directly to My Library! I also appreciate that the searchbars have been labeled.But I still think there are too many things on screen!"
