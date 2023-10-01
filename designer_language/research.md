@@ -51,7 +51,7 @@ After that music finished playing, another song of a completely different genre 
 
 ## Why did I choose Regina?
 
-I chose Regina because she seemed very different from me. I wanted to see things from a different point of view.
+I chose Regina because she seemed very different from me. I wanted to see things from a different point of view. But I also chose her because she reminds me of my grandparents, which also struggle with new technologies, and it would make helping her more enjoyable.
 
 ## Opportunities for Improving the UI
 The biggest opportunities for improvement that I saw after doing the sketches and protypes, are:
