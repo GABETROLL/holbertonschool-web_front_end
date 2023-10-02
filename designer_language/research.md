@@ -1,4 +1,4 @@
-In this blog, I choose Regina, one of 3 personas from my Holberton assignment, to create a better UX experience for her, and to learn more about UX.
+This Blog is a project divided into 3 sub-projects: **Research**, where we empathize with the user, and make ideas to better the user's UX experience, **Prototype**, where we make a Figma prototype that illustrates our final idea, and **Validate**, where we present our project to 5 people, and let them test what we did, and gather their feedback.
 
 ## Chosen Persona
 ### Regina's Persona
@@ -51,19 +51,19 @@ After that music finished playing, another song of a completely different genre 
 
 ## Why did I choose Regina?
 
-I chose Regina because she seemed very different from me. I wanted to see things from a different point of view. But I also chose her because she reminds me of my grandparents, which also struggle with new technologies, and it would make helping her more enjoyable.
+I chose Regina because she didn't seem too comfortable with new technologies, and I simpathize with her for that. I also chose her because she seemed very different from me, and that could help me both simpathize and be an un-biased UX designer at the same time. I also chose her because of her age, since I'd love to design easier and more intuitive GUI's for her, my grandparents, and for people like me, who don't know what we're doing all of the time, and can't pick up the skills for using a GUI right away.
 
 ## Opportunities for Improving the UI
-The biggest opportunities for improvement that I saw after doing the sketches and protypes, are:
+The biggest opportunities for improvement that I saw, after doing the sketches and protypes, are:
 - to make the purpose of the widgets in the app be more clear
 - to make adding new songs easier, as little operations as possible
 - to make finding a song in ``Your Library`` easier
 - making the size of widgets bigger 
 
-## Introduction
+## Note
 This is my first UX project, and the point of this blog post is for me to learn, so if you have any constructive feedback, I'd love to hear it!
 
-Also, I want to appologize, because I've never used Spotify, and I didn't decided not to even try to use the interface. Most of the ideas I made, I made before I even searched for a song online. So, let me know all of the inaccuracies I made in this project.
+Also, I want to appologize, because I've never used Spotify, and I didn't even try to use the interface. Most of the ideas I made, I made before I even searched for a song online. So, let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. God bless you.
 
 ## Ideas
 - Sort the songs automatically?
@@ -151,6 +151,8 @@ There should be a ``+`` button to add a song being played from public results, t
 <img src="chosen_idea_1.jpg">
 How the initial state of the app is when you first open it
 <img src="chosen_idea_3.jpg">
+How the app should function when the user types something in the ``Your Library`` searchbar, coming from the previous mockup.
+
 At the left, the search results in ``Your Library`` display anything inside of ``Your Library`` with that same name, same for the playlist at the right (This was meant to be a __zoomed in__ mockup of the app, don't panick)
 
 **The playlist pops out of the ``Your Library`` panel, and should __seem__ connected to it**
@@ -164,7 +166,7 @@ At the left, the search results in ``Your Library`` display anything inside of `
 Anything that could be added to ``Your Library`` found online should have an option called ``Add to Your Library...``, that spawns a pop-up or extends a menu that gives Regina the option to save it somewhere.
 
 ## Why did I choose these ones?
-I thought they would give more control, express purpose clearly, allow Regina to find and add songs to her library easier.
+I thought they would give more control, express purpose clearly, allow Regina to find and add songs to her library in less steps.
 
 ## Figma Prototypes
 Here's the [prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
