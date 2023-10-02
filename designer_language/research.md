@@ -79,7 +79,7 @@ Each set of options would popup when collapsing a folder, playlist, song, etc...
 
 <img src="idea0.jpg">
 
-### Just make te searchbars be able to yield results for ANYTHING in its category.
+### Just make the searchbars be able to yield results for ANYTHING in its category.
 After trully inspecting the Spotify GUI, I realized that you already can find particular songs inside of a separate search bar for a playlist, **But you can't find a song through the main "Your Library" searchbar.**
 
 I think that having the "Your Library" searchbar look for EVERYTHING in "Your Library" is better **when you don't know where to look for things.** For example: searching in a folder should yield results for all of the playlists there, and all the songs there, in any of those playlists, as well.
