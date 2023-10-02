@@ -63,7 +63,7 @@ The biggest opportunities for improvement that I saw, after doing the sketches a
 ## Note
 This is my first UX project, and the point of this blog post is for me to learn, so if you have any constructive feedback, I'd love to hear it!
 
-Also, I want to appologize, because I've never used Spotify, and I didn't even try to use the interface. Most of the ideas I made, I made before I even searched for a song online. So, let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. God bless you.
+Also, I want to appologize, because I've never used Spotify, and I didn't even try to use the interface. Most of the ideas I made, I made before I even searched for a song online. I ended up refining some things later. So, let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. God bless you.
 
 ## Ideas
 - Sort the songs automatically?
@@ -82,7 +82,7 @@ Each set of options would popup when collapsing a folder, playlist, song, etc...
 ### Just make the searchbars be able to yield results for ANYTHING in its category.
 After trully inspecting the Spotify GUI, I realized that you already can find particular songs inside of a separate search bar for a playlist, **But you can't find a song through the main "Your Library" searchbar.**
 
-I think that having the "Your Library" searchbar look for EVERYTHING in "Your Library" is better **when you don't know where to look for things.** For example: searching in a folder should yield results for all of the playlists there, and all the songs there, in any of those playlists, as well.
+I think that having the "Your Library" searchbar look for EVERYTHING in "Your Library" is better, **when you don't know where to look for things.** For example: searching in a folder should yield results for all of the playlists there, and all the songs there, in any of those playlists, as well.
 
 Then, I'd have every sub-searchbar that may appear in the app do the same, for maximum coverage.
 
@@ -131,6 +131,8 @@ There should be a ``+`` button to add a song being played from public results, t
 
 ## Final 3-in-1 Solution
 
+After reviewing my work a bit more, and tweaking and considering my final solution, I've decided:
+
 ### Specify more what each widget does
 - move the ``Home Search Online`` panel to be a header, **to make it easier for Regina to know that that searchbar is public, and not private**
 - Make all of the searchbars have intuitive placeholders that say where each searchbar is searching, **to give Regina more of a clue to where she's searching**
@@ -143,7 +145,7 @@ There should be a ``+`` button to add a song being played from public results, t
 - Add ``Genre`` and ``Year`` as ``Sort by`` options, since **Regina felt frustrated about that in her user chart**.
 
 ### Add 2 more options to add songs to Your Library
-- Add an ``Add to Your Library...`` button on a song result in Soptify's public search results, and not just in the playlist, **to make it easier for her to add it**. Inside the popup that button triggers should be an option to create a new playlist/folder to put the song in.
+- Un-hide the ``Add to Your Library...`` and ``Add to playlist..`` popups on public playlist and song results, **to make it easier for her to add it**. Having the ``...`` buttons only show up when the mouse is hovering the song makes it much harder to know how to add the song to ``Your Library``.
 
 - Add two ways to add a song in a library: search for songs online, or use songs already in ``Your Library`` (The songs would be added as a "link" to a song. This would allow results to not repeat when being searched, while still maintaining copies of songs in multiple playlists/folders when necessary)
 
@@ -167,10 +169,10 @@ I'm not sure if sorting by Genre is always possible, but I think it could work i
 <img src="chosen_idea_5.jpg">
 (The first image is the top result of a song online, and the second is a playlist online)
 
-Anything that could be added to ``Your Library`` found online should have an option called ``Add to Your Library...``, that spawns a pop-up or extends a menu that gives Regina the option to save it somewhere.
+Anything that could be added to ``Your Library`` found online should have a VISIBLE button called ``Add to Your Library...``, that spawns a pop-up or extends a menu that gives Regina the option to save it somewhere. The buttons Spotify have are hidden inside a ``...`` popup button, which only shows up when the mouse hovers the song, but that's very unclear.
 
 ## Why did I choose these ones?
-I thought they would give more control, express purpose clearly, allow Regina to find and add songs to her library in less steps.
+I thought they would give more control, express purpose clearly, and allow Regina to find and add songs to her library in less steps.
 
 Some other solutions I made had less control or were a bit overwhelming. Although this final solution is also a bit overwhelming.
 

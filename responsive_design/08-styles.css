@@ -354,25 +354,7 @@
     .header .menu-icon .navicon::after {
       top: -.7rem;
     }
-  }
-
-  @media screen and (max-width: 480px) {
-    .header-logo {
-      flex-basis: 70%;
-    }
-  }
-
-  @media screen and (min-width: 481px) and (max-width: 767px) {
-    .header-logo {
-      flex-basis: 79%;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-    .header .menu-icon {
-      display: none;
-    }
-  }
+  } 
 
   /* Header
       ============================= */
@@ -438,9 +420,21 @@
     }
   }
 
-  @media screen and (max-width: 480px) {
+ @media screen and (max-width: 480px) {
     .header-logo {
       flex-basis: 70%;
+    }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    .header-logo {
+      flex-basis: 79%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .header .menu-icon {
+      display: none;
     }
   }
 
