@@ -161,15 +161,23 @@ At the left, the search results in ``Your Library`` display anything inside of `
 
 (The sorting method should affect both the playlist and the playist's search results. IT SHOULD NOT BE PERMANENTLY CHANGING THE ORDER THAT THEY'RE STORED IN)
 
+I'm not sure if sorting by Genre is always possible, but I think it could work if it were a new data piece that all songs could carry. The purpose of this project was to give the customer a better experience in theory, regardless of how feasable the changes are.
+
 <img src="chosen_idea_4.jpg">
 <img src="chosen_idea_5.jpg">
+(The first image is the top result of a song online, and the second is a playlist online)
+
 Anything that could be added to ``Your Library`` found online should have an option called ``Add to Your Library...``, that spawns a pop-up or extends a menu that gives Regina the option to save it somewhere.
 
 ## Why did I choose these ones?
 I thought they would give more control, express purpose clearly, allow Regina to find and add songs to her library in less steps.
 
-## Figma Prototypes
-Here's the [prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
+Some other solutions I made had less control or were a bit overwhelming. Although this final solution is also a bit overwhelming.
+
+The idea for automatically sorting her library was too easy for the algorithms to mess up. And sorting the songs automatically without any option how would be beyond frustrating.
 
 ## Regina's Feedback
 "I'm glad that there's now an option to add music from Online directly to My Library! I also appreciate that the searchbars have been labeled.But I still think there are too many things on screen!"
+
+## Figma Prototypes
+Here's the [prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
