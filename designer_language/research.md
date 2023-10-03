@@ -63,9 +63,7 @@ The biggest opportunities for improvement that I saw, after doing the sketches a
 ## Note
 This is my first UX project, and the point of this blog post is for me to learn, so if you have any constructive feedback, I'd love to hear it!
 
-Also, I want to appologize, because I've never used Spotify, and I almost didn't use the interface. Most of the ideas I made, I made before I even searched for a song online. I ended up refining some things later, for the final 3-1 idea, and there's probably still lots I don't know. 
-
-I also had a lot better ideas after.
+Also, I want to appologize, because I've never used Spotify, and at first, I almost didn't use the interface. Most of the ideas I made, I made before I even searched for a song online. I ended up refining some things later, for the final 3-1 idea, and there's probably still lots I don't know. I also had a lot better ideas after, that I didn't include.
 
 So, let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. God bless you.
 
