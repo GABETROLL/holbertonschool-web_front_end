@@ -309,6 +309,8 @@
     padding: 2.5rem;
     position: relative;
     user-select: none;
+
+    display: none;
   }
 
   .header .menu-icon .navicon {
@@ -365,12 +367,6 @@
   @media screen and (min-width: 481px) and (max-width: 767px) {
     .header-logo {
       flex-basis: 79%;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-    .header .menu-icon {
-      display: none;
     }
   }
 
