@@ -1,4 +1,4 @@
-This Blog is a project divided into 3 sub-projects: **Research**, where we empathize with the user, and make ideas to better the user's UX experience, **Prototype**, where we make a Figma prototype that illustrates our final idea, and **Validate**, where we present our project to 5 people, and let them test what we did, and gather their feedback.
+This Blog is a project divided into 3 sub-projects: **Research**, where we empathize with the user, and make ideas to better the user's UX experience, **Prototype**, where we make a Figma prototype that illustrates our final idea, and **Usability Study**, where we present our project to 5 people, and let them test what we did, and gather their feedback.
 
 ## Chosen Persona
 ### Regina's Persona
@@ -63,7 +63,7 @@ The biggest opportunities for improvement that I saw, after doing the sketches a
 ## Note
 This is my first UX project, and the point of this blog post is for me to learn, so if you have any constructive feedback, I'd love to hear it!
 
-Also, I want to appologize, because I've never used Spotify, and at first, I almost didn't use the interface. Most of the ideas I made, I made before I even searched for a song online. I ended up refining some things later, for the final 3-1 idea, and there's probably still lots I don't know. I also had a lot better ideas after, that I didn't include.
+Also, I want to appologize, because I've never used Spotify, and at first, I almost didn't use the interface. Most of the ideas I made, I made before I even searched for a song online. I ended up refining some things later, for the final 3-1 idea, but I rushed through the big majority of the project, and therefore there's probably still lots I don't know. I also had a lot better ideas after, that I didn't include.
 
 So, let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. God bless you.
 
@@ -185,3 +185,27 @@ The idea for automatically sorting her library was too easy for the algorithms t
 
 ## Figma Prototypes
 Here's the [prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
+
+## Usability Study
+In this last part, I must get 5 or more people to use my Figma prototype, and see their reactions to know if my prototype was successful.
+
+### ???
+He knew where to click to add a song to ``Your Library``, but the buttons didn't lead anywhere, and he acted confused after.
+
+He also knew where to click to sort/search for in ``Your Library``.
+
+He didn't know how could click to expand the playlists until I showed him. Then he said "Oh, man!", indicating that he couldn't have known that was an option.
+
+The public playlist and public song results pages weren't connected at all to the first one, so he couldn't see how to add a song from the public areas.
+
+He also tried to play the song, but the button doesn't actually play anything.
+
+### 's Result
+At the end, he knew how to add to ``Your Library`` from ``Your Library``, user to ``Sort by`` button and experimented with the ``Search for`` buttons, but was surprised that they didn't do anything. He didn't know to expand the playlist items, and was surprised that he couldn't play the song.
+
+###
+###
+###
+###
+
+## Conclusion
