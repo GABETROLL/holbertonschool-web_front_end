@@ -189,7 +189,7 @@ Here's the [prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify
 ## Usability Study
 In this last part, I must get 5 or more people to use my Figma prototype, and see their reactions to know if my prototype was successful.
 
-### ???
+### Jesus - C21
 He knew where to click to add a song to ``Your Library``, but the buttons didn't lead anywhere, and he acted confused after.
 
 He also knew where to click to sort/search for in ``Your Library``.
