@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create basic cookie</title>
+
+        <script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
+
+        <script>
+            /**
+             * Removes Welcome message if it currently exists in the DOM,
+             * and displays the login form 'div'.
+             */
+            function showForm () {
+                document.getElementById("welcome").remove();
+                document.getElementById("form").style.display = "block";
+            }
+
+            /**
+             * Hides the form 'div'.
+             */
+            function hideForm () {
+                document.getElementById("form").style.display = "none";
+            }
+
+            /**
+             * deletes the 'firstname' and 'email' cookies from this browser
+             * AND
+             * Shows the login form.
+             *
+             * (I believe this is logging off)
+             */
+            function deleteCookiesAndShowForm () {
+                Cookies.remove('firstname', {path: '/'});
+                Cookies.remove('email', {path: '/'});
+                showForm();
+            }
+
+            /*
+             * Sets the document's cookie's
+             * 'firstname' be equal to
+             * the content in the text input
+             * with 'firstname' as its id,
+             * and 'email' to be equal to
+             * the content in the text input with
+             * 'email' as its id.
+             */
+             function setCookies () {
+                console.log("SETTING THE COOKIES");
+
+                const date = new Date();
+                const remainingMilliseconds = 10 * 24 * 60 * 60 * 1000;
+                const expiryTime = parseInt(date.getTime()) + remainingMilliseconds;
+                date.setTime(expiryTime);
+                const expiryUTCTime = date.toUTCString();
+
+                const firstName = document.getElementById('firstname').value;
+                document.cookie = `firstname=${firstName};` + `expires=${expiryUTCTime}; path=/`;
+
+                const email = document.getElementById('email').value;
+                document.cookie = `email=${email};` + `expires=${expiryUTCTime}; path=/`;
+            }
+
+            function showWelcomeMessageOrForm () {
+                const firstName = Cookies.get('firstname');
+
+                if (firstName) {
+                    const welcomeH1 = document.createElement("h1");
+                    welcomeH1.id = "welcome";
+                    welcomeH1.textContent = `Welcome ${firstName}`;
+
+                    const logoutLink = document.createElement("a");
+                    logoutLink.textContent = "(logout)";
+                    logoutLink.addEventListener("click", deleteCookiesAndShowForm);
+                    logoutLink.style.fontWeight = "normal";
+                    logoutLink.style.marginLeft = "10px";
+                    logoutLink.style.fontStyle = "italic";
+
+                    welcomeH1.appendChild(logoutLink);
+
+                    document.body.appendChild(welcomeH1);
+
+                    hideForm();
+                } else {
+                    showForm();
+                }
+            }
+
+            /**
+             * (I believe this is logging in)
+             */
+            function setCookiesAndShowWelcomeMessage () {
+                Cookies.set('firstname', document.getElementById('firstname').value, {path: '/'});
+                Cookies.set('email', document.getElementById('email').value, {path: '/'});
+
+                showWelcomeMessageOrForm();
+            }
+
+            /*
+             * Appends a paragraph that contains "Cookies:"
+             * and another paragraph containing 'document.cookie'.
+             */
+            function showCookies () {
+                const p = document.createElement('p');
+                p.innerHTML = `Email: ${Cookies.get('email')} - Firstname: ${Cookies.get('firstname')}`;
+
+                document.body.appendChild(p);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="form">
+            <h2>Login to the website</h2>
+            <input id="firstname" type="text">
+            <input id="email" type="text">
+            <button onclick="setCookies()">Log me in</button>
+        </div>
+    </body>
+</html>
