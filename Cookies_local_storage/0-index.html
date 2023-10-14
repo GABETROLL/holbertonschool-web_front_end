@@ -16,13 +16,13 @@
              * 'email' as its id.
              */
             function setCookies () {
-                console.log("SETTING THE COOKIES");
+                // console.log("SETTING THE COOKIES");
 
-                const firstName = document.getElementById('firstname').value;
-                document.cookie = `firstname=${firstName}`;
+                const firstnameInputValue = document.getElementById('firstname').value;
+                document.cookie = `firstname=${firstnameInputValue}`;
 
-                const email = document.getElementById('email').value;
-                document.cookie = `email=${email}`;
+                const emailInputValue = document.getElementById('email').value;
+                document.cookie = `email=${emailInputValue}`;
             }
 
             /*
@@ -39,8 +39,8 @@
     </head>
     <body>
         <h1>Login to the website</h1>
-        <input id="firstname" type="text">
-        <input id="email" type="text">
+        <input id="firstname" type="text" placeholder="Firstname">
+        <input id="email" type="text" placeholder="Email">
         <button onclick="setCookies()">Log me in</button>
         <h1>Cookies</h1>
         <button onclick="showCookies()">Show the cookies</button>

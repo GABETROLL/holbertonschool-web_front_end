@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exercise 5</title>
+        <script>
+            // SHELVES
+            const availableItems = ["Shampoo", "Soap", "Sponge", "Water"];
+
+            // 'localStorage' IS THE CART.
+
+            /**
+             * Adds 'item' to 'localStorage' as a key,
+             * with <true> as its corresponding value.
+             */
+             function addItemToCart (item) {
+                localStorage.setItem(item, true);
+            }
+
+            /**
+             * Appends all of the items in 'availableItems'
+             * as <li>'s in a <ul>,
+             * and appends the <ul> to the <body>.
+             *
+             * Each <li> has a 'click' event listener
+             * that adds the <li>'s item NAME STRING to the localStorage,
+             * which is being treated as the cart.
+             */
+            function createStore () {
+                const avaliableItemsUl = document.createElement('ul');
+
+                for (const availableItem of availableItems) {
+                    const availableItemLi = document.createElement('li');
+                    availableItemLi.textContent = availableItem;
+
+                    availableItemLi.onclick = function () {
+                        addItemToCart(availableItem);
+                    }
+
+                    avaliableItemsUl.appendChild(availableItemLi);
+                }
+                document.body.appendChild(avaliableItemsUl);
+            }
+
+            /**
+             * Appends a <p> element to the <body> that says
+             * `You previously had ${localStorage.length} items in your cart`.
+             *
+             * If there are no items in the cart (localStorage.length === 0),
+             * this function doesn't do anything.
+             */
+            function displayCart () {
+                if (localStorage.length) {
+
+                    let cartItemCount = 0;
+                    // 'localStorage' is treated like the shopping cart
+                    // in this file.
+                    for (const item of Object.keys(localStorage)) {
+                        cartItemCount++;
+                    }
+
+                    const itemsInCartP = document.createElement('p');
+                    itemsInCartP.textContent = `You previously had ${cartItemCount} item${cartItemCount > 1 ? 's' : ''} in your cart`;
+                    document.body.appendChild(itemsInCartP);
+                }
+            }
+
+            window.onload = function () {
+                if (typeof(Storage) !== "undefined") {
+                    createStore();
+                    displayCart();
+                } else {
+                    alert("Sorry, your browser does not support Web storage. Try again with a better one");
+                }
+            }
+        </script>
+    </head>
+    <body></body>
+</html>
