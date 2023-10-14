@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create basic cookie</title>
+
+        <script>
+            /**
+             * Returns the value associated with the name 'name'
+             * in the browser's cookies.
+             *
+             * If the name is not in the cookies,
+             * this function just returns ''.
+             */
+             function getCookie (name) {
+                const cookieParts = document.cookie.split('; ');
+                cookieParts.reverse();
+                /*
+                 * The most recent version of the cookie
+                 *is the one I want to output.
+                 */
+
+                console.log(cookieParts);
+
+                for (const cookiePair of cookieParts) {
+                    const cookiePairParts = cookiePair.split('=');
+
+                    if (cookiePairParts[0] === name) {
+                        return cookiePairParts[1];
+                    }
+                }
+
+                return '';
+            }
+
+            /**
+             * Removes Welcome message if it currently exists in the DOM,
+             * and displays the login form 'div'.
+             */
+            function showForm () {
+                document.getElementById("welcome").remove();
+                document.getElementById("form").style.display = "block";
+            }
+
+            /**
+             * Hides the form 'div'.
+             */
+            function hideForm () {
+                document.getElementById("form").style.display = "none";
+            }
+
+            /**
+             * deletes the 'firstname' and 'email' cookies from this browser
+             * by making them expire 1 Jan 1970 at 00:00:00 UTC.
+             *
+             * Shows the login form.
+             *
+             * (I believe this is logging off)
+             */
+            function deleteCookiesAndShowForm () {
+                const date = new Date();
+                date.setTime(0);
+
+                const expiryUTCTime = date.toUTCString();
+
+                documemt.cookie = `firstname=...; expires=${expiryUTCTime}; path=/`;
+                document.cookie = `email=...; expires=${expiryUTCTime}; path=/`;
+
+                showForm();
+            }
+
+            function showWelcomeMessageOrForm () {
+                const firstName = getCookie('firstname');
+
+                if (firstName) {
+                    const welcomeH1 = document.createElement("h1");
+                    welcomeH1.id = "welcome";
+                    welcomeH1.textContent = `Welcome ${firstName}`;
+
+                    const logoutLink = document.createElement("a");
+                    logoutLink.textContent = "(logout)";
+                    logoutLink.addEventListener("click", deleteCookiesAndShowForm);
+                    logoutLink.style.fontWeight = "normal";
+                    logoutLink.style.marginLeft = "10px";
+                    logoutLink.style.fontStyle = "italic";
+
+                    welcomeH1.appendChild(logoutLink);
+
+                    document.body.appendChild(welcomeH1);
+
+                    hideForm();
+                } else {
+                    showForm();
+                }
+            }
+            /*
+             * Sets the document's cookie's
+             * 'firstname' be equal to
+             * the content in the text input
+             * with 'firstname' as its id,
+             * and 'email' to be equal to
+             * the content in the text input with
+             * 'email' as its id.
+             */
+            function setCookies () {
+                console.log("SETTING THE COOKIES");
+
+                const date = new Date();
+                const remainingMilliseconds = 10 * 24 * 60 * 60 * 1000;
+                const expiryTime = parseInt(date.getTime()) + remainingMilliseconds;
+                date.setTime(expiryTime);
+                const expiryUTCTime = date.toUTCString();
+
+                const firstName = document.getElementById('firstname').value;
+                document.cookie = `firstname=${firstName};` + `expires=${expiryUTCTime}; path=/`;
+
+                const email = document.getElementById('email').value;
+                document.cookie = `email=${email};` + `expires=${expiryUTCTime}; path=/`;
+            }
+
+            /*
+             * Appends a paragraph that contains "Cookies:"
+             * and another paragraph containing 'document.cookie'.
+             */
+            function showCookies () {
+                const p = document.createElement('p');
+                p.innerHTML = `Email: ${getCookie('email')} - Firstname: ${getCookie('firstname')}`;
+
+                document.body.appendChild(p);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="form">
+            <h2>Login to the website</h2>
+            <input id="firstname" type="text">
+            <input id="email" type="text">
+            <button onclick="setCookies()">Log me in</button>
+        </div>
+    </body>
+</html>

@@ -15,11 +15,13 @@
              * the content in the text input with
              * 'email' as its id.
              */
-            function setCookies() {
-                const firstName = document.getElementById('#firstname').value;
+            function setCookies () {
+                console.log("SETTING THE COOKIES");
+
+                const firstName = document.getElementById('firstname').value;
                 document.cookie = `firstname=${firstName}`;
 
-                const email = document.getElementById('#email').value;
+                const email = document.getElementById('email').value;
                 document.cookie = `email=${email}`;
             }
 
@@ -27,13 +29,11 @@
              * Appends a paragraph that contains "Cookies:"
              * and another paragraph containing 'document.cookie'.
              */
-            function showCookies() {
-                document.createElement('<p>Cookies:</p>');
+            function showCookies () {
+                const p = document.createElement('p');
+                p.innerHTML = `Cookies: ${document.cookie}`;
 
-                const cookiesP = document.createElement('p');
-                cookiesP.appendChild(
-                    document.createTextNode(document.cookie)
-                );
+                document.body.appendChild(p);
             }
         </script>
     </head>
@@ -41,8 +41,8 @@
         <h1>Login to the website</h1>
         <input id="firstname" type="text">
         <input id="email" type="text">
-        <button>Log me in</button>
+        <button onclick="setCookies()">Log me in</button>
         <h1>Cookies</h1>
-        <button>Show the cookies</button>
+        <button onclick="showCookies()">Show the cookies</button>
     </body>
 </html>

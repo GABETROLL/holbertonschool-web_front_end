@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create basic cookie</title>
+
+        <script>
+            /*
+             * Sets the document's cookie's
+             * 'firstname' be equal to
+             * the content in the text input
+             * with 'firstname' as its id,
+             * and 'email' to be equal to
+             * the content in the text input with
+             * 'email' as its id.
+             */
+            function setCookies () {
+                console.log("SETTING THE COOKIES");
+
+                const date = new Date();
+                const remainingMilliseconds = 10 * 24 * 60 * 60 * 1000;
+                const expiryTime = parseInt(date.getTime()) + remainingMilliseconds;
+                date.setTime(expiryTime);
+                const expiryUTCTime = date.toUTCString();
+
+                const firstName = document.getElementById('firstname').value;
+                document.cookie = `firstname=${firstName};` + `expires=${expiryUTCTime}; path=/`;
+
+                const email = document.getElementById('email').value;
+                document.cookie = `email=${email};` + `expires=${expiryUTCTime}; path=/`;
+            }
+
+            /*
+             * Appends a paragraph that contains "Cookies:"
+             * and another paragraph containing 'document.cookie'.
+             */
+            function showCookies () {
+                const p = document.createElement('p');
+                p.innerHTML = `Cookies: ${document.cookie}`;
+
+                document.body.appendChild(p);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Login to the website</h1>
+        <input id="firstname" type="text">
+        <input id="email" type="text">
+        <button onclick="setCookies()">Log me in</button>
+        <h1>Cookies</h1>
+        <button onclick="showCookies()">Show the cookies</button>
+    </body>
+</html>
