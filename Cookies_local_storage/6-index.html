@@ -6,14 +6,14 @@
             // SHELVES
             const availableItems = ["Shampoo", "Soap", "Sponge", "Water"];
 
-            // 'localStorage' IS THE CART.
+            // 'sessionStorage' IS THE CART.
 
             /**
-             * Adds 'item' to 'localStorage' as a key,
+             * Adds 'item' to 'sessionStorage' as a key,
              * with <true> as its corresponding value.
              */
              function addItemToCart (item) {
-                localStorage.setItem(item, true);
+                sessionStorage.setItem(item, true);
             }
 
             /**
@@ -22,7 +22,7 @@
              * and appends the <ul> to the <body>.
              *
              * Each <li> has a 'click' event listener
-             * that adds the <li>'s item NAME STRING to the localStorage,
+             * that adds the <li>'s item NAME STRING to the sessionStorage,
              * which is being treated as the cart.
              */
             function createStore () {
@@ -43,18 +43,18 @@
 
             /**
              * Appends a <p> element to the <body> that says
-             * `You previously had ${number of items in localStorage} items in your cart`.
+             * `You previously had ${number of items in sessionStorage} items in your cart`.
              *
-             * If there are no items in the cart (localStorage.length === 0),
+             * If there are no items in the cart (sessionStorage.length === 0),
              * this function doesn't do anything.
              */
             function displayCart () {
-                if (localStorage.length) {
+                if (sessionStorage.length) {
 
                     let cartItemCount = 0;
-                    // 'localStorage' is treated like the shopping cart
+                    // 'sessionStorage' is treated like the shopping cart
                     // in this file.
-                    for (const item of Object.keys(localStorage)) {
+                    for (const item of Object.keys(sessionStorage)) {
                         cartItemCount++;
                     }
 
