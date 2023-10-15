@@ -64,6 +64,8 @@
 
                 const expiryUTCTime = date.toUTCString();
 
+                // console.log(expiryUTCTime);
+
                 documemt.cookie = `firstname=...; expires=${expiryUTCTime}; path=/`;
                 document.cookie = `email=...; expires=${expiryUTCTime}; path=/`;
 
@@ -76,7 +78,7 @@
                 if (firstName) {
                     const welcomeH1 = document.createElement("h1");
                     welcomeH1.id = "welcome";
-                    welcomeH1.textContent = `Welcome ${firstName}`;
+                    welcomeH1.textContent = `Welcome: ${firstName}`;
 
                     const logoutLink = document.createElement("a");
                     logoutLink.textContent = "(logout)";
@@ -104,7 +106,7 @@
              * 'email' as its id.
              */
             function setCookies () {
-                console.log("SETTING THE COOKIES");
+                // console.log("SETTING THE COOKIES");
 
                 const date = new Date();
                 const remainingMilliseconds = 10 * 24 * 60 * 60 * 1000;
@@ -134,8 +136,8 @@
     <body>
         <div id="form">
             <h2>Login to the website</h2>
-            <input id="firstname" type="text">
-            <input id="email" type="text">
+            <input id="firstname" type="text" placeholder="Firstname">
+            <input id="email" type="text" placeholder="Email">
             <button onclick="setCookies()">Log me in</button>
         </div>
     </body>
