@@ -37,38 +37,21 @@
                 showForm();
             }
 
-            /*
-             * Sets the document's cookie's
-             * 'firstname' be equal to
-             * the content in the text input
-             * with 'firstname' as its id,
-             * and 'email' to be equal to
-             * the content in the text input with
-             * 'email' as its id.
+            /**
+             * If the user is logged in through the cookies,
+             * this function displays a welcome message with
+             * the option to logout (with id "welcome"),
+             * and calles <hideForm>.
+             *
+             * Otherwise, this function calls <showForm>.
              */
-             function setCookies () {
-                console.log("SETTING THE COOKIES");
-
-                const date = new Date();
-                const remainingMilliseconds = 10 * 24 * 60 * 60 * 1000;
-                const expiryTime = parseInt(date.getTime()) + remainingMilliseconds;
-                date.setTime(expiryTime);
-                const expiryUTCTime = date.toUTCString();
-
-                const firstName = document.getElementById('firstname').value;
-                document.cookie = `firstname=${firstName};` + `expires=${expiryUTCTime}; path=/`;
-
-                const email = document.getElementById('email').value;
-                document.cookie = `email=${email};` + `expires=${expiryUTCTime}; path=/`;
-            }
-
             function showWelcomeMessageOrForm () {
                 const firstName = Cookies.get('firstname');
 
                 if (firstName) {
                     const welcomeH1 = document.createElement("h1");
                     welcomeH1.id = "welcome";
-                    welcomeH1.textContent = `Welcome ${firstName}`;
+                    welcomeH1.textContent = `Welcome: ${firstName}`;
 
                     const logoutLink = document.createElement("a");
                     logoutLink.textContent = "(logout)";
@@ -88,6 +71,11 @@
             }
 
             /**
+             * Sets the cookies 'firstname=<Firstname input value>'
+             * and 'email=<Email input value>',
+             *
+             * then calls <showWelcomeMessageOrForm>.
+             *
              * (I believe this is logging in)
              */
             function setCookiesAndShowWelcomeMessage () {
@@ -107,14 +95,16 @@
 
                 document.body.appendChild(p);
             }
+
+            window.onload = showWelcomeMessageOrForm;
         </script>
     </head>
     <body>
         <div id="form">
             <h2>Login to the website</h2>
-            <input id="firstname" type="text">
-            <input id="email" type="text">
-            <button onclick="setCookies()">Log me in</button>
+            <input id="firstname" type="text" placeholder="Firstname">
+            <input id="email" type="text" placeholder="Email">
+            <button onclick="setCookiesAndShowWelcomeMessage()">Log me in</button>
         </div>
     </body>
 </html>
