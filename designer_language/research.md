@@ -200,10 +200,24 @@ The public playlist and public song results pages weren't connected at all to th
 
 He also tried to play the song, but the button doesn't actually play anything.
 
-### 's Result
+#### Jesus's Result
 At the end, he knew how to add to ``Your Library`` from ``Your Library``, user to ``Sort by`` button and experimented with the ``Search for`` buttons, but was surprised that they didn't do anything. He didn't know to expand the playlist items, and was surprised that he couldn't play the song.
 
-###
+### Yelitza - Admissions
+She tried to click a playlist widget and saw that it expanded to the right, and she was surpiresed.
+
+I then asked her to try to add something to ``Your Library``, but she kept clicking on the libraries. I told her again, and that time, she clicked on the right button, but which did nothing. I explained to her that it's not functional, but I should have waited a bit more.
+
+I then asked her to add a new song to a playlist, and she seemed to think it was in the ``Your Library`` section as well, then went to the right place. and said "Done!" when she was finished.
+
+Once again, she didn't see the other two screens.
+
+#### Yelitza's Results
+At the end, Yelizta knew how to add to ``Your Library``, had a bit of trouble going for the ``Add song to Your Library...`` option, and also missed out on the other 2 screens.
+
+### At this point, I decided to edit the prototype
+I made sure that all of the screens could connect with eachother, so that the test subjects could interact with the other parts of the prototype that I wanted to show them. I had given up previously to make the prototype complete, but now I had made it much cleaner.
+
 ###
 ###
 ###
