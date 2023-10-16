@@ -158,11 +158,13 @@ After reviewing my work a bit more, and tweaking and considering my final soluti
 
 #### Mockups
 <img src="chosen_idea_1.jpg">
-How the initial state of the app is when you first open it
+How the initial state of the app is when you first open it. You can see the ``Home Search`` panel is now the header, ``Your Feed`` is at the top of your feed, and the ``Your Library`` search options have been clearly labeled.
 <img src="chosen_idea_3.jpg">
 How the app should function when the user types something in the ``Your Library`` searchbar, coming from the previous mockup.
 
-At the left, the search results in ``Your Library`` display anything inside of ``Your Library`` with that same name, same for the playlist at the right (This was meant to be a __zoomed in__ mockup of the app, don't panick)
+At the left, the search results in ``Your Library`` display anything inside of ``Your Library`` with a similar name.
+
+The user would have also clicked on the searchbar for the playlist at the right, which would have the same effect there.
 
 **The playlist pops out of the ``Your Library`` panel, and should __seem__ connected to it**
 <ing src="chosen_idea_0.jpg">
@@ -174,13 +176,13 @@ I'm not sure if sorting by Genre is always possible, but I think it could work i
 
 <img src="chosen_idea_4.jpg">
 <img src="chosen_idea_5.jpg">
-(The first image is the top result of a song online, and the second is a playlist online)
+(The first image is the top result of a song online, and the second is a playlist online, and you can get to these by searching for them online through the searchbar, through the feed, or maybe another searching method that I don't know about)
 
 Anything that could be added to ``Your Library`` found online should have a VISIBLE button called ``Add to Your Library...``, that spawns a pop-up or extends a menu that gives Regina the option to save it somewhere.
 
 As it would later turn out, Spotify HAS that option, hidden inside a ``...`` popup button, which only shows up when the mouse hovers the song, but that's very unclear. Poor Regina!
 
-### Why did I choose these ones?
+### Why did I choose these ones over the other ones?
 I thought they would give more control, express purpose clearly, and allow Regina to find and add songs to her library in less steps.
 
 Some other solutions I made had less control or were a bit overwhelming. Although this final solution is also a bit overwhelming.
@@ -190,7 +192,7 @@ The idea for automatically sorting her library was too easy for the algorithms t
 It definitely doesn't solve the app being very overwhelming, having too many things on screen, and making the process of building/organizing ``Your Library`` easier. In fact, in the real interface, there's a lot more hidden options that I didn't find, since I wasn't looking for them, like the radio or the queue.
 
 ### Regina's Feedback
-"I'm glad that there's now an option to add music from Online directly to My Library! I also appreciate that the searchbars have been labeled.But I still think there are too many things on screen, and organizing and building my library is still as tough as ever!"
+"I'm glad that there's now an option to add music from Online directly to My Library! I also appreciate that the searchbars have been labeled, and I'm glad that there's now more ways to sort the playlists. But I still think there are too many things on screen, and organizing and building my library is still as tough as ever! I prefer this version, since it's more practical, but it's still hard to understand."
 
 ## Prototype
 Here's the [Figma prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
