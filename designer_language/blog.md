@@ -176,7 +176,9 @@ I'm not sure if sorting by Genre is always possible, but I think it could work i
 <img src="chosen_idea_5.jpg">
 (The first image is the top result of a song online, and the second is a playlist online)
 
-Anything that could be added to ``Your Library`` found online should have a VISIBLE button called ``Add to Your Library...``, that spawns a pop-up or extends a menu that gives Regina the option to save it somewhere. The buttons Spotify have are hidden inside a ``...`` popup button, which only shows up when the mouse hovers the song, but that's very unclear.
+Anything that could be added to ``Your Library`` found online should have a VISIBLE button called ``Add to Your Library...``, that spawns a pop-up or extends a menu that gives Regina the option to save it somewhere.
+
+As it would later turn out, Spotify HAS that option, hidden inside a ``...`` popup button, which only shows up when the mouse hovers the song, but that's very unclear. Poor Regina!
 
 ### Why did I choose these ones?
 I thought they would give more control, express purpose clearly, and allow Regina to find and add songs to her library in less steps.
@@ -184,6 +186,8 @@ I thought they would give more control, express purpose clearly, and allow Regin
 Some other solutions I made had less control or were a bit overwhelming. Although this final solution is also a bit overwhelming.
 
 The idea for automatically sorting her library was too easy for the algorithms to mess up. And sorting the songs automatically without any option how would be beyond frustrating.
+
+It definitely doesn't solve the app being very overwhelming, having too many things on screen, and making the process of building/organizing ``Your Library`` easier. In fact, in the real interface, there's a lot more hidden options that I didn't find, since I wasn't looking for them, like the radio or the queue.
 
 ### Regina's Feedback
 "I'm glad that there's now an option to add music from Online directly to My Library! I also appreciate that the searchbars have been labeled.But I still think there are too many things on screen, and organizing and building my library is still as tough as ever!"
