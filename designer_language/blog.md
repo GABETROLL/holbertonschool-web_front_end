@@ -5,11 +5,11 @@ This is my first UX project, and the point of this blog post is for me to learn,
 
 Also, I want to appologize, because I constantly skipped learning/informing myself/preparing things in previous steps, which resulted in the next steps being half-baked.
 
-I've never used Spotify, and at first, I almost didn't use the interface. Most of the ideas I made, I made before I even searched for a song online.
+I've never used Spotify, and at first, I almost didn't use the interface. Most of the ideas I made, I made before I even searched for a song online!
 
 I ended up refining some things later, for the final 3-1 idea, but I rushed through the big majority of the project, and therefore there's probably still lots I don't know. I also had a lot better ideas after, that I didn't include.
 
-So, let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. God bless you.
+So, let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. I'd love to hear about them. God bless you.
 
 ## Research
 ### Chosen Persona
@@ -71,6 +71,10 @@ The biggest opportunities for improvement that I saw, after doing the sketches a
 - to make adding new songs easier, as little operations as possible
 - to make finding a song in ``Your Library`` easier
 - making the size of widgets bigger
+- unhiding important widgets
+- making building, playing and searching in ``Your Library`` much easier, since the current Spotify makes it difficult.
+- Making the GUI simpler
+- Making the organization of the songs and ``Your Library`` simpler, easier, intuitive and more reliable
 
 ### Ideas
 - Sort the songs automatically?
@@ -200,37 +204,74 @@ Here's the [Figma prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/S
 ## Usability Study
 In this last part, I must get 5 or more people to use my Figma prototype, and see their reactions to know if my prototype was successful.
 
-### Jesus - C21
-He knew where to click to add a song to ``Your Library``, but the buttons didn't lead anywhere, and he acted confused after.
+My prototype doesn't actually contain any functionality for playing, storing playlists, sorting or searching, and it's just a hollow mockup. This is because I didn't work that hard, or because some of those things were too hard to implement.
 
-He also knew where to click to sort/search for in ``Your Library``.
+Keep in mind that I typed these results after our interviews finished, and my memory was very foggy, since I kept telling them the answers, even though I shouldn't have, and had to try to guess how they were doing before I told them.
 
-He didn't know how could click to expand the playlists until I showed him. Then he said "Oh, man!", indicating that he couldn't have known that was an option.
+### My Peers' Reactions
+#### Guillermo #0's Results
+Guillermo is one of my peers from Holberton, SJ, Puerto Rico, and is in Cohort 21.
 
-The public playlist and public song results pages weren't connected at all to the first one, so he couldn't see how to add a song from the public areas.
+##### What he understood
+He understood where to search for something in ``Your Library``, how to add a song to ``Your Library``, how to add a song to a personal playlist, and how to sort.
 
-He also tried to play the song, but the button doesn't actually play anything.
+##### Grey area
+After trying to search in ``Your Library``, he started to click on the online searchbar, and that's when I told him the ``Your Library`` choice was correct.
 
-#### Jesus's Result
-At the end, he knew how to add to ``Your Library`` from ``Your Library``, user to ``Sort by`` button and experimented with the ``Search for`` buttons, but was surprised that they didn't do anything. He didn't know to expand the playlist items, and was surprised that he couldn't play the song.
+Once he tried to add a song to a playlist, I asked him if it would be easier to add the song this way, and he hesitated to say yes.
 
-### Yelitza - Admissions
-She tried to click a playlist widget and saw that it expanded to the right, and she was surpiresed.
+He was surprised that none of the buttons led anywhere. He also saw the blue flashes that Figma uses to indicate where the user can click, and was surprised, and I explained to him what those are for.
 
-I then asked her to try to add something to ``Your Library``, but she kept clicking on the libraries. I told her again, and that time, she clicked on the right button, but which did nothing. I explained to her that it's not functional, but I should have waited a bit more.
+##### What he didn't understand
+He also didn't understand the ``Search Online`` example searches functionality, which I showed to him later.
+He tried to scroll down in the ``Sort by`` menu, which was clipped by the bottom of the screen.
+He also got a bit confused at the end of our session.
 
-I then asked her to add a new song to a playlist, and she seemed to think it was in the ``Your Library`` section as well, then went to the right place. and said "Done!" when she was finished.
+**He understood about half of the interface tasks I presented him with.** His biggest missunderstanding was **where** things belong. He seemed surprised/disappointed that the buttons don't go anywhere, and you can't play music.
 
-Once again, she didn't see the other two screens.
+He eventually completed the tasks I gave him, as far as my mockup allows, but some tasks took 2 or 3 tries. When I asked him how he thought the missing functionalities would work, he responded correctly. He also said that the missing functionality options **would** work okay, but seemed hesitant about it. He also just told me that he didn't know what he was doing when I brought him in, so he was hesitant, because he didn't know what to do (I think I should have done a better job at communicating before the test). He went for the wrong searchbar, and tried to scroll down the ``Sort by`` dropdown menu of a playlist. He also went to click a lot of options that don't have any functionality, and pointed that out.
 
-#### Yelitza's Results
-At the end, Yelizta knew how to add to ``Your Library``, had a bit of trouble going for the ``Add song to Your Library...`` option, and also missed out on the other 2 screens.
+#### Guillermo #1's Results
+Guillermo is one of my peers in Holberton SJ, Puerto Rico, and is in Cohort **20**.
 
-### At this point, I decided to edit the prototype
-I made sure that all of the screens could connect with eachother, so that the test subjects could interact with the other parts of the prototype that I wanted to show them. I had given up previously to make the prototype complete, but now I had made it much cleaner.
+##### What he understood
+He understood almost nothing at first.
+##### What my prototype lacked
+- He attempted to play the songs.
+- The add options didn't lead anywhere.
+- The ``Search Online`` button options. He attempted to type the searches instead.
 
-###
-###
-###
+##### What he didn't understand
+- He went for the ``Search Online`` button, instead of the one in ``Your Library``.
+- Where to add a new song to a playlist. He went for the add button in ``Your Library`` instead, then corrected his mistake when I told him the instruction again.
+- Using the ``Sort by`` in ``Your Library``. He went for the playlist instead.
+- There was a layering bug with the playlists in ``Your Library`` and the ``Your Library`` ``Sort by`` dropdown, which he noticed.
+
+**He almost didn't understand the prototype.** To me, it seemed as if there were several widgets that could be confused with eachother, like the searchbars and adding songs.
+
+He was able to complete the tasks I gave him, with an average of about 2-3 tries. He said the dropdown options felt natural, but noticed a lot of room for improving the design. He also said that he colors respect the color pallete of Spotify, and that the drop-down ``Sort by`` options fit in well with the real Spotify. He also said that I have to use the Spotify app as a reference for my prototype, and that most of my widgets were slightly missaligned from the actual app. He kept clicking on things to explore, even though some of them didn't lead anywhere, and I constantly told him so. He was also much more focused on talking about a lot of suggestions and ideas about UX design, since he actually is very passionate about it, instead of trying the prototype as a consumer.
+
+**After that, I fixed the layering bug.**
+
+#### Rafael's Result
+Rafael is my peer at Holberton, San Juan, Puerto Rico, and is in Cohort 19, just like me.
+
+##### What he understood
+- How to sort a playlist
+- How to make a new playlist in ``Your Library``
+- How to play a playlist
+- How to add a song to a playlist in ``Your Library``
+- How to make
+- How to search online
+##### What he didn't understand
+- How to search for a playlist in ``Your Library``. He went for the top searchbar instead, the one that searches online.
+
+**At the end, he understood most of the interface, but didn't understand how to search, since there are too many searchbars.**
+He hesitated a bit before each click, but seemed somewhat confident a few fractions of a second or two later.
+
+He completed all/almost all of the tasks I gave him first try, except for the searchbars, because he confused where each one searches. He said he felt all of the app was good, except the searchbars, which are confusing. are too many search bars for different things. Tipically, Rafael just goes for the search icon, without reading the text. He also mentioned that in his Spotify app in his phone, searching online or in ``Your Library`` is always available at the top. He also mentioned the widgets are too crammed into their boxes, too close to their boxes' edges, too big and need more space to breathe.
+
+#### ???
+#### ???
 
 ## Conclusion
