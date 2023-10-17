@@ -271,7 +271,21 @@ He hesitated a bit before each click, but seemed somewhat confident a few fracti
 
 He completed all/almost all of the tasks I gave him first try, except for the searchbars, because he confused where each one searches. He said he felt all of the app was good, except the searchbars, which are confusing. are too many search bars for different things. Tipically, Rafael just goes for the search icon, without reading the text. He also mentioned that in his Spotify app in his phone, searching online or in ``Your Library`` is always available at the top. He also mentioned the widgets are too crammed into their boxes, too close to their boxes' edges, too big and need more space to breathe.
 
-#### ???
+#### Michael's Results
+Michael just recently joined Holberton, SJ, Puerto Rico, and is in Cohort 22.
+
+##### What he didn't understand
+He took a long time to find the ``Your Library`` searchbar, but he had opened ``+ to You Library...``, then clicked on ``Search online...``. Eventually, he clicked one of the displayed playlists instead. Once I asked him to add something to ``Your Library``, he didn't remember where to, and searched everywhere, before I finally broke it to him.
+When I asked him to sort the headers in ``Your Library``, his first response was to go for the one in the playlist.
+When I asked him to add a public playlist result to ``Your Library``, he clicked on adding a song in that playlist instead, then I corrected him.
+##### Grey area
+He had already opened the ``Search Online`` widget, so when I told him to do that next, he already knew what to do.
+##### What he understood
+He knew how to go back to the feed, but hesitated and said "Home?" before pushing the ``Home`` button. He found the way to add a public song result to ``Your Library``.
+
+**He got confused more than half of the time. At first, he would confuse all of the different widgets, but then, began making progress.** I'm sorry, but I influenced him to understand the interface more, and I shouldn't have, and since I told him the correct answer after he had gotten it wrong everal times, I believe he became better at finding things out. He also confused the similar widgets for different sections a bit.
+
+After a lot of attempts in the first tasks, and very few attempts in later tasks, he was able to complete all of them, as far as the mockup allows. He feels that this was a really good recreation of Spotify, that the ``Sort by`` options for the playlists would be very good, but that ``Sort by Artist`` may be a 50/50, that ``Sort by Genre and Year`` would be a good addition, that the mockup's colors respect Spotify's color pallette, but could have some color other than grey. I believe he had agreed that the many options are confusing.
 #### ???
 
 ## Conclusion
