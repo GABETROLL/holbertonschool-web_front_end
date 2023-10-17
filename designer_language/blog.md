@@ -289,6 +289,27 @@ After a lot of attempts in the first tasks, and very few attempts in later tasks
 
 (During the end of this interview, a guy that was sitting next to him, also in that same Cohort, said that the items. for him, were too big)
 
-#### ???
+#### Carlos's Results
+Carlos is my peer in Holberton, SJ, Puerto Rico, and is in Cohort 21. Carlos told me he had never used Spotify
+
+##### What he didn't understand
+- He thought the ``+ to Your Library...`` button was for finding songs in ``Your Library``.
+- He confused the play button __photo__ of a playlist with the actual play button, which is green. He then said he thought the photo one and the one at the bottom were the correct buttons.
+- He practically did not understand what I was telling him to do
+- He kept going to ``Your Library`` when I asked him to do things in the playlist
+- Took several tries to find where the ``Search in playlist`` searchbar, and only spotted it when I pointed it out to him.
+- Got overwhelmed by the amount of dropdown menus he had opened, and had to close them all. **I should have made them close.**
+
+##### Honorable Mentions
+He asked where alphabetical sorting was located in the app, then eventually clicked on the ``Your Library`` ``Sort by`` option again, and saw it was all the way at the bottom. He also used the ``Playlists`` filter bubble for searching in ``Your Library``, which got **me** to realize that's technically a valid response to my question, but it wasn't what I expected.
+
+##### What he understood
+- After trying to click the playlist photo, he understood what the real play buttons are.
+- After a while of looking, he spotted the playlist searchbar button.
+- Where to add a song to a playlist
+
+**The large majority of the time, he didn't understand __where__ I was telling him to go, but seemed comfortable and confident with the app.**
+
+He never used the ``Your Library`` searchbar to find the song in ``Your Library``, although he never needed to use it, and instead clicked on the ``Playlists`` bubble. He did finish a few things that I asked him to do, but he seemed very busy experimenting and messing around on his own accord. At the end, he ended clicking in a lot of places that weren't the exact thing I asked him to do, probably because there's a lot of stuff on screen. I think I also introduced the interview wrong entirely, since I had told him "Mess around" at the beggining. He liked sorting by ``Year``. He told me he found the app was very simple, and it's obvious where everything is. He said he likes that the widgets are big. He said that searching for ``Artist`` in ``Your Library`` could be tough.
 
 ## Conclusion
