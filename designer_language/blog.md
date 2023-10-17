@@ -286,6 +286,9 @@ He knew how to go back to the feed, but hesitated and said "Home?" before pushin
 **He got confused more than half of the time. At first, he would confuse all of the different widgets, but then, began making progress.** I'm sorry, but I influenced him to understand the interface more, and I shouldn't have, and since I told him the correct answer after he had gotten it wrong everal times, I believe he became better at finding things out. He also confused the similar widgets for different sections a bit.
 
 After a lot of attempts in the first tasks, and very few attempts in later tasks, he was able to complete all of them, as far as the mockup allows. He feels that this was a really good recreation of Spotify, that the ``Sort by`` options for the playlists would be very good, but that ``Sort by Artist`` may be a 50/50, that ``Sort by Genre and Year`` would be a good addition, that the mockup's colors respect Spotify's color pallette, but could have some color other than grey. I believe he had agreed that the many options are confusing.
+
+(During the end of this interview, a guy that was sitting next to him, also in that same Cohort, said that the items. for him, were too big)
+
 #### ???
 
 ## Conclusion
