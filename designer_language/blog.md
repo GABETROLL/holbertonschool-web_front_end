@@ -1,15 +1,15 @@
 This Blog is a project divided into 3 sub-projects: **Research**, where we empathize with the user, and make ideas to better the user's UX experience, **Prototype**, where we make a Figma prototype that illustrates our final idea, and **Usability Study**, where we present our project to 5 people, and let them test what we did, and gather their feedback.
 
 ## Note
-This is my first UX project, and the point of this blog post is for me to learn, so if you have any constructive feedback, I'd love to hear it!
+This is my first UX project. This Holberton project doesn't aim to make good ideas, or ideas that are feasable in real life. The goal of this Blog post is for me to start learning about UX, and to experiment, so if you have any constructive feedback, I'd love to hear it!
 
-Also, I want to appologize, because I constantly skipped learning/informing myself/preparing things in previous steps, which resulted in the next steps being half-baked.
+Also, I'm very sorry if the project's results are incomplete, half-baked or fall short of the UX goals, I had refused to learn things previously, because I was lazy, and didn't know what I was doing. That would be required later.
 
-I've never used Spotify, and at first, I almost didn't use the interface. Most of the ideas I made, I made before I even searched for a song online!
+I had never even used Spotify until now, and since I created an account with my real email, and I was lazy, I almost didn't use it.
 
-I ended up refining some things later, for the final 3-1 idea, but I rushed through the big majority of the project, and therefore there's probably still lots I don't know. I also had a lot better ideas after, that I didn't include.
+I ended up using Spotify slightly more over the time I made this Blog, and refined some things. At the end, I had disciplined myself and had made a much better job for the UX study and conclusion!
 
-So, let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. I'd love to hear about them. God bless you.
+Let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. I'd love to hear about them. God bless you.
 
 ## Research
 ### Chosen Persona
@@ -67,14 +67,17 @@ I chose Regina because she didn't seem too comfortable with new technologies, an
 
 ### Opportunities for Improving the UI
 The biggest opportunities for improvement that I saw, after doing the sketches and protypes, are:
+- making it easier to find specific songs in ``Your Library``
+- making it easier sorting ``Your Library``
+- Finding ways to build and organize ``Your Library``, like Regina said
+- Finding ways to make Regina not need to maintain her library over time
 - to make the purpose of the widgets in the app be more clear
-- to make adding new songs easier, as little operations as possible
-- to make finding a song in ``Your Library`` easier
+- Making the GUI simpler, and much less overwhelming
+- Making the entire process of finding songs online, building ``Your Library``, finding things in ``Your Library``, sorting ``Your Library`` and playing ``Your Library`` much simpler
 - making the size of widgets bigger
 - unhiding important widgets
-- making building, playing and searching in ``Your Library`` much easier, since the current Spotify makes it difficult.
-- Making the GUI simpler
-- Making the organization of the songs and ``Your Library`` simpler, easier, intuitive and more reliable
+
+Unfortunately, I did not come up with an idea that solves all of these.
 
 ### Ideas
 - Sort the songs automatically?
@@ -196,7 +199,7 @@ The idea for automatically sorting her library was too easy for the algorithms t
 It definitely doesn't solve the app being very overwhelming, having too many things on screen, and making the process of building/organizing ``Your Library`` easier. In fact, in the real interface, there's a lot more hidden options that I didn't find, since I wasn't looking for them, like the radio or the queue.
 
 ### Regina's Feedback
-"I'm glad that there's now an option to add music from Online directly to My Library! I also appreciate that the searchbars have been labeled, and I'm glad that there's now more ways to sort the playlists. But I still think there are too many things on screen, and organizing and building my library is still as tough as ever! I prefer this version, since it's more practical, but it's still hard to understand."
+"I'm glad that there's now an option to add music from Online directly to My Library! And I'm glad that there's now more ways to sort the playlists. But I still think there are too many things on screen, and organizing and building my library is still as tough as ever! I prefer this version's practicality, since it's more practical, but it's even harder to understand..."
 
 ## Prototype
 Here's the [Figma prototype](https://www.figma.com/file/qAa7DvyAHcFIZXxjQvdMpx/Spotify-(Copy)?type=design&node-id=615%3A141&mode=design&t=deZIyV7Zcdr3WKVv-1).
@@ -313,3 +316,34 @@ He asked where alphabetical sorting was located in the app, then eventually clic
 He never used the ``Your Library`` searchbar to find the song in ``Your Library``, although he never needed to use it, and instead clicked on the ``Playlists`` bubble. He did finish a few things that I asked him to do, but he seemed very busy experimenting and messing around on his own accord. At the end, he ended clicking in a lot of places that weren't the exact thing I asked him to do, probably because there's a lot of stuff on screen. I think I also introduced the interview wrong entirely, since I had told him "Mess around" at the beggining. He liked sorting by ``Year``. He told me he found the app was very simple, and it's obvious where everything is. He said he likes that the widgets are big. He said that searching for ``Artist`` in ``Your Library`` could be tough.
 
 ## Conclusion
+**The project was a failure overall. I didn't make the prototype's functionalites I had planned, and the interface was mostly not intuitive.**
+
+### Successes
+Adding sorting by ``Year`` or ``Genre`` may be a very good idea! Several people said it would be more comfortable to have those options.
+
+### Failures
+There are too many widgets on the interface, and too many similar widgets in different sections that can be very easily confused with eachother.
+
+I barely covered Regina's needs.
+
+### What I didn't get to find out
+Adding songs in those ways may or may not work, but the participants did not get to see those results. I'd say those would be a partial success.
+
+I never implemented a searchbar feature, and none of my participants got to try to search in ``Your Library``, so I couldn't test if having the ``Search in Your Library...`` searchbar be able to search for songs as well as playlists would be a good idea.
+
+### What can be sent to implementation
+``Sort by`` ``Genre`` or ``Year``. 2 peers I interviewed said it would be ince to have them, and one told me it would be REALLY good. And even if it's not that great, it's only a tiny widget.
+
+### What can be redefined
+The app shouldn't have similar options for things everywhere, and the labels don't actually help.
+
+One idea to fix thats is to have one of each widget that does things in ``Your Library`` or in the public results, depending on where the user is going. However, it's probably best to leave the app as it is.
+
+The appearance of the app probably needs clearer borders that divide sections, and have the widgets be only slightly bigger than they already are.
+
+### My Recommendation for the next phase
+- Researching simpler UI's
+- Sending ``Sort by - Year/Genre`` to implementation
+- Re-size widgets to make them less packed, and have bigger borders between panels
+- Re-search the searchbar functionalities, and test to see if users find searching for anything in ``Your Library`` more comfortable
+- Finding much simpler ways to add to ``Your Library`` in the GUI, without having to add any new, complicated drop-downs or features, or find ways to ximplify the GUI, without over-simplifying or removing backend/API features
