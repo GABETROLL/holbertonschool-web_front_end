@@ -12,8 +12,7 @@ I ended up using Spotify slightly more over the time I made this Blog, and refin
 Let me know all of the inaccuracies I made in this project, your feedback on my ideas, and what I could improve. I'd love to hear about them. God bless you.
 
 ## Research
-### Chosen Persona
-#### Regina's Persona
+### Chosen Persona: Regina
 <img src="Regina_persona.jpg">
 
 Regina studied to be an Opera Singer. After that, she realized that she wouldn't make a living out of it. Since she liked road-trips, she reinvented herself by driving cargo trucks cross country, while listening to music and endlessly singing her heart out.
@@ -37,17 +36,7 @@ Regina is not so comfortable with new technologies, but her grandson introduced 
 - Build up a permanent library of saved songs like the one she has in real life
 - Intuitive ways to filter her library
 - Control her classification
-
-##### Her UX fears
-(Regina's worst-case UX scenarios)
-- Not knowing where to initiate her search
-since there are many entry points in the
-app
-- Scroll her entire library to find this one
-particular song
-- Listen to the same content at the top of her
-library
-- Have to build playlist that she will have to
+Herat she will have to
 maintain overtime
 - Shuffle her entire library and end up with
 classical mixed with soul music
@@ -174,7 +163,7 @@ At the left, the search results in ``Your Library`` display anything inside of `
 The user would have also clicked on the searchbar for the playlist at the right, which would have the same effect there.
 
 **The playlist pops out of the ``Your Library`` panel, and should __seem__ connected to it**
-<ing src="chosen_idea_0.jpg">
+<img src="chosen_idea_0.jpg">
 ``Sort by`` ``Genre`` and ``Year`` an option in both search results in ``Your Library`` and in playlist.
 
 (The sorting method should affect both the playlist and the playist's search results. IT SHOULD NOT BE PERMANENTLY CHANGING THE ORDER THAT THEY'RE STORED IN)
