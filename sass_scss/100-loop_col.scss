@@ -1,3 +1,11 @@
+/*
+Exercise 100:
+
+Make the col-1, col-2, col-3 and col-4
+have widths of 100%, 50%, 33.33...% and 25%.
+
+You must use a @for statement.
+*/
 @for $width from 1 through 4 {
     .col-#{$width} {
         width: 100% / $width;
