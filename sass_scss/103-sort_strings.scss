@@ -1,0 +1,23 @@
+/*
+Write a Sass file that
+sorts the variable $list_to_sort
+and prints the sorted list in the debug output.
+*/
+$list_to_sort: john anna zoe kim felicia carrie;
+
+/* selection sort */
+@use 'sass:list';
+
+$list_length: length($list_to_sort);
+
+@for $a_index from 1 through $list_length {
+    @for $b_index from $a_index through $list_length {
+        @if nth($list_to_sort, $a_index) > nth($list_to_sort, $b_index) {
+            $temp: nth($list_to_sort, $a_index);
+            $list_to_sort: set-nth($list_to_sort, $a_index, nth($b_index));
+            $list_to_sort: set-nth($list_to_sort, $b_index, $temp);
+        }
+    }
+}
+
+@debug $list_to_sort;
